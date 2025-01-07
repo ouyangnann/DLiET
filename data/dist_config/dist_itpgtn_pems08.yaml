@@ -16,7 +16,11 @@ student_model:
   use_teacher: True
   add_edge: True
   split: 3D
+<<<<<<< HEAD
   num_subgrids: 4
+=======
+  num_subgrids: 8
+>>>>>>> 5ad63e5847f13f0b0c5a4e5520c183e4bf9c2c70
   batch_size: 64
   test_batch_size: 64
   dropout: 0.1

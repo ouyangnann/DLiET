@@ -14,8 +14,13 @@ teacher_model:
   
 
 student_model:
+<<<<<<< HEAD
   use_teacher: True
   add_edge: True
+=======
+  use_teacher: False
+  add_edge: False
+>>>>>>> 5ad63e5847f13f0b0c5a4e5520c183e4bf9c2c70
   split: 3D
   num_subgrids: 4
   batch_size: 64
