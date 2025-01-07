@@ -1,0 +1,1122 @@
+2024-12-10 09:43:52,102 - model.pytorch.models_supervisor - INFO - Log directory: data/log/itpgtn_gt/20241210_094352_itpgtn_gt_l_12_h_3_lr_0.001_bs_64/
+2024-12-10 09:43:56,685 - model.pytorch.models_supervisor - INFO - Total trainable parameters 336859
+2024-12-10 09:43:56,685 - model.pytorch.models_supervisor - INFO - Model parameters: model_dim: 32, g_dim: 8, dec_dim: 32,num_encoder: 3, num_g: 3
+2024-12-10 09:43:56,694 - model.pytorch.models_supervisor - INFO - config_filename:data/config/config_itpgtn_gt_metr.yaml
+2024-12-10 09:43:56,694 - model.pytorch.models_supervisor - INFO - device:cuda:0
+2024-12-10 09:43:56,694 - model.pytorch.models_supervisor - INFO - Model created
+2024-12-10 09:43:56,695 - model.pytorch.models_supervisor - INFO - Start training ...
+2024-12-10 09:43:56,695 - model.pytorch.models_supervisor - INFO - num_batches:375
+2024-12-10 09:44:55,855 - model.pytorch.models_supervisor - INFO - Iteration time: 59.1592 seconds
+2024-12-10 09:44:55,855 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 09:44:55,855 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 09:45:04,090 - model.pytorch.models_supervisor - INFO - Epoch [0/300] (375) train_mae: 3.2070,  lr: 0.00100000, val:  2.5984, rmse: 4.8363, mape:0.064713,time:67.4s
+2024-12-10 09:45:04,091 - model.pytorch.models_supervisor - INFO - Val loss decrease from inf to 2.5984, 
+2024-12-10 09:47:43,699 - model.pytorch.models_supervisor - INFO - Iteration time: 159.6080 seconds
+2024-12-10 09:47:43,699 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 09:47:43,699 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 09:48:05,196 - model.pytorch.models_supervisor - INFO - Epoch [1/300] (750) train_mae: 2.6948,  lr: 0.00100000, val:  2.5059, rmse: 4.5879, mape:0.063432,time:181.1s
+2024-12-10 09:48:05,196 - model.pytorch.models_supervisor - INFO - Val loss decrease from 2.5984 to 2.5059, 
+2024-12-10 09:50:51,090 - model.pytorch.models_supervisor - INFO - Iteration time: 165.8942 seconds
+2024-12-10 09:50:51,091 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 09:50:51,091 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 09:51:12,655 - model.pytorch.models_supervisor - INFO - Epoch [2/300] (1125) train_mae: 2.6374,  lr: 0.00100000, val:  2.5349, rmse: 4.5778, mape:0.067956,time:187.5s
+2024-12-10 09:54:03,730 - model.pytorch.models_supervisor - INFO - Iteration time: 171.0750 seconds
+2024-12-10 09:54:03,730 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 09:54:03,730 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 09:54:25,290 - model.pytorch.models_supervisor - INFO - Epoch [3/300] (1500) train_mae: 2.6018,  lr: 0.00100000, val:  2.4742, rmse: 4.5224, mape:0.063471,time:192.6s
+2024-12-10 09:54:25,290 - model.pytorch.models_supervisor - INFO - Val loss decrease from 2.5059 to 2.4742, 
+2024-12-10 09:57:11,464 - model.pytorch.models_supervisor - INFO - Iteration time: 166.1731 seconds
+2024-12-10 09:57:11,464 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 09:57:11,464 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 09:57:33,017 - model.pytorch.models_supervisor - INFO - Epoch [4/300] (1875) train_mae: 2.5864,  lr: 0.00100000, val:  2.4460, rmse: 4.5116, mape:0.063284,time:187.7s
+2024-12-10 09:58:14,401 - model.pytorch.models_supervisor - INFO - Epoch [4/300] (1875) train_mae: 2.5864,   lr: 0.00100000, test_mae: 2.5726, rmse: 4.7506, mape:0.066696,187.7s
+2024-12-10 09:58:14,413 - model.pytorch.models_supervisor - INFO - Saved model at 4
+2024-12-10 09:58:14,413 - model.pytorch.models_supervisor - INFO - saving to data/log/itpgtn_gt/20241210_094352_itpgtn_gt_l_12_h_3_lr_0.001_bs_64/models//epo4.tar
+2024-12-10 09:58:14,413 - model.pytorch.models_supervisor - INFO - Val loss decrease from 2.4742 to 2.4460, 
+2024-12-10 10:01:00,597 - model.pytorch.models_supervisor - INFO - Iteration time: 166.1836 seconds
+2024-12-10 10:01:00,597 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 10:01:00,597 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 10:01:22,104 - model.pytorch.models_supervisor - INFO - Epoch [5/300] (2250) train_mae: 2.5621,  lr: 0.00100000, val:  2.4307, rmse: 4.4866, mape:0.062311,time:187.7s
+2024-12-10 10:01:22,104 - model.pytorch.models_supervisor - INFO - Val loss decrease from 2.4460 to 2.4307, 
+2024-12-10 10:04:11,596 - model.pytorch.models_supervisor - INFO - Iteration time: 169.4911 seconds
+2024-12-10 10:04:11,596 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 10:04:11,596 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 10:04:33,173 - model.pytorch.models_supervisor - INFO - Epoch [6/300] (2625) train_mae: 2.5455,  lr: 0.00100000, val:  2.4125, rmse: 4.4817, mape:0.061044,time:191.1s
+2024-12-10 10:04:33,173 - model.pytorch.models_supervisor - INFO - Val loss decrease from 2.4307 to 2.4125, 
+2024-12-10 10:07:19,357 - model.pytorch.models_supervisor - INFO - Iteration time: 166.1839 seconds
+2024-12-10 10:07:19,357 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 10:07:19,358 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 10:07:40,905 - model.pytorch.models_supervisor - INFO - Epoch [7/300] (3000) train_mae: 2.5309,  lr: 0.00100000, val:  2.3995, rmse: 4.4160, mape:0.061621,time:187.7s
+2024-12-10 10:07:40,905 - model.pytorch.models_supervisor - INFO - Val loss decrease from 2.4125 to 2.3995, 
+2024-12-10 10:10:31,612 - model.pytorch.models_supervisor - INFO - Iteration time: 170.7063 seconds
+2024-12-10 10:10:31,612 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 10:10:31,612 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 10:10:51,709 - model.pytorch.models_supervisor - INFO - Epoch [8/300] (3375) train_mae: 2.5114,  lr: 0.00100000, val:  2.4199, rmse: 4.3215, mape:0.061685,time:190.8s
+2024-12-10 10:13:30,522 - model.pytorch.models_supervisor - INFO - Iteration time: 158.8128 seconds
+2024-12-10 10:13:30,522 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 10:13:30,523 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 10:13:52,065 - model.pytorch.models_supervisor - INFO - Epoch [9/300] (3750) train_mae: 2.4941,  lr: 0.00100000, val:  2.3694, rmse: 4.3543, mape:0.061555,time:180.4s
+2024-12-10 10:14:33,450 - model.pytorch.models_supervisor - INFO - Epoch [9/300] (3750) train_mae: 2.4941,   lr: 0.00100000, test_mae: 2.4928, rmse: 4.5832, mape:0.064644,180.4s
+2024-12-10 10:14:33,461 - model.pytorch.models_supervisor - INFO - Saved model at 9
+2024-12-10 10:14:33,461 - model.pytorch.models_supervisor - INFO - saving to data/log/itpgtn_gt/20241210_094352_itpgtn_gt_l_12_h_3_lr_0.001_bs_64/models//epo9.tar
+2024-12-10 10:14:33,461 - model.pytorch.models_supervisor - INFO - Val loss decrease from 2.3995 to 2.3694, 
+2024-12-10 10:17:21,101 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 10:17:21,101 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 10:17:41,276 - model.pytorch.models_supervisor - INFO - Epoch [10/300] (4125) train_mae: 2.4820,  lr: 0.00100000, val:  2.3577, rmse: 4.3351, mape:0.059588,time:187.8s
+2024-12-10 10:17:41,276 - model.pytorch.models_supervisor - INFO - Val loss decrease from 2.3694 to 2.3577, 
+2024-12-10 10:20:32,329 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 10:20:32,329 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 10:20:53,873 - model.pytorch.models_supervisor - INFO - Epoch [11/300] (4500) train_mae: 2.4681,  lr: 0.00100000, val:  2.3292, rmse: 4.2689, mape:0.058641,time:192.6s
+2024-12-10 10:20:53,873 - model.pytorch.models_supervisor - INFO - Val loss decrease from 2.3577 to 2.3292, 
+2024-12-10 10:23:40,235 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 10:23:40,235 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 10:24:01,785 - model.pytorch.models_supervisor - INFO - Epoch [12/300] (4875) train_mae: 2.4550,  lr: 0.00100000, val:  2.3524, rmse: 4.3021, mape:0.060960,time:187.9s
+2024-12-10 10:26:52,844 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 10:26:52,844 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 10:27:14,029 - model.pytorch.models_supervisor - INFO - Epoch [13/300] (5250) train_mae: 2.4405,  lr: 0.00100000, val:  2.3308, rmse: 4.2749, mape:0.059487,time:192.2s
+2024-12-10 10:30:00,648 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 10:30:00,648 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 10:30:22,216 - model.pytorch.models_supervisor - INFO - Epoch [14/300] (5625) train_mae: 2.4260,  lr: 0.00100000, val:  2.3077, rmse: 4.2505, mape:0.058282,time:188.2s
+2024-12-10 10:31:03,594 - model.pytorch.models_supervisor - INFO - Epoch [14/300] (5625) train_mae: 2.4260,   lr: 0.00100000, test_mae: 2.4215, rmse: 4.4658, mape:0.061041,188.2s
+2024-12-10 10:31:03,605 - model.pytorch.models_supervisor - INFO - Saved model at 14
+2024-12-10 10:31:03,605 - model.pytorch.models_supervisor - INFO - saving to data/log/itpgtn_gt/20241210_094352_itpgtn_gt_l_12_h_3_lr_0.001_bs_64/models//epo14.tar
+2024-12-10 10:31:03,605 - model.pytorch.models_supervisor - INFO - Val loss decrease from 2.3292 to 2.3077, 
+2024-12-10 10:33:49,686 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 10:33:49,686 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 10:34:11,262 - model.pytorch.models_supervisor - INFO - Epoch [15/300] (6000) train_mae: 2.4120,  lr: 0.00100000, val:  2.2846, rmse: 4.1916, mape:0.056636,time:187.7s
+2024-12-10 10:34:11,262 - model.pytorch.models_supervisor - INFO - Val loss decrease from 2.3077 to 2.2846, 
+2024-12-10 10:37:02,291 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 10:37:02,291 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 10:37:23,848 - model.pytorch.models_supervisor - INFO - Epoch [16/300] (6375) train_mae: 2.3981,  lr: 0.00100000, val:  2.2897, rmse: 4.2162, mape:0.058404,time:192.6s
+2024-12-10 10:40:00,870 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 10:40:00,870 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 10:40:22,431 - model.pytorch.models_supervisor - INFO - Epoch [17/300] (6750) train_mae: 2.3863,  lr: 0.00100000, val:  2.2703, rmse: 4.1591, mape:0.056416,time:178.6s
+2024-12-10 10:40:22,431 - model.pytorch.models_supervisor - INFO - Val loss decrease from 2.2846 to 2.2703, 
+2024-12-10 10:43:13,480 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 10:43:13,480 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 10:43:35,038 - model.pytorch.models_supervisor - INFO - Epoch [18/300] (7125) train_mae: 2.3728,  lr: 0.00100000, val:  2.2874, rmse: 4.1872, mape:0.058555,time:192.6s
+2024-12-10 10:46:21,373 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 10:46:21,373 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 10:46:42,911 - model.pytorch.models_supervisor - INFO - Epoch [19/300] (7500) train_mae: 2.3641,  lr: 0.00100000, val:  2.2585, rmse: 4.1114, mape:0.056102,time:187.9s
+2024-12-10 10:47:24,321 - model.pytorch.models_supervisor - INFO - Epoch [19/300] (7500) train_mae: 2.3641,   lr: 0.00100000, test_mae: 2.3689, rmse: 4.3219, mape:0.058847,187.9s
+2024-12-10 10:47:24,332 - model.pytorch.models_supervisor - INFO - Saved model at 19
+2024-12-10 10:47:24,332 - model.pytorch.models_supervisor - INFO - saving to data/log/itpgtn_gt/20241210_094352_itpgtn_gt_l_12_h_3_lr_0.001_bs_64/models//epo19.tar
+2024-12-10 10:47:24,332 - model.pytorch.models_supervisor - INFO - Val loss decrease from 2.2703 to 2.2585, 
+2024-12-10 10:50:10,419 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 10:50:10,419 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 10:50:31,984 - model.pytorch.models_supervisor - INFO - Epoch [20/300] (7875) train_mae: 2.3536,  lr: 0.00100000, val:  2.2584, rmse: 4.1431, mape:0.056697,time:187.7s
+2024-12-10 10:50:31,984 - model.pytorch.models_supervisor - INFO - Val loss decrease from 2.2585 to 2.2584, 
+2024-12-10 10:53:23,033 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 10:53:23,033 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 10:53:44,586 - model.pytorch.models_supervisor - INFO - Epoch [21/300] (8250) train_mae: 2.3450,  lr: 0.00100000, val:  2.2639, rmse: 4.1475, mape:0.056666,time:192.6s
+2024-12-10 10:56:30,862 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 10:56:30,862 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 10:56:52,425 - model.pytorch.models_supervisor - INFO - Epoch [22/300] (8625) train_mae: 2.3384,  lr: 0.00100000, val:  2.2591, rmse: 4.1283, mape:0.056570,time:187.8s
+2024-12-10 10:59:41,447 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 10:59:41,447 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 11:00:00,936 - model.pytorch.models_supervisor - INFO - Epoch [23/300] (9000) train_mae: 2.3296,  lr: 0.00100000, val:  2.2581, rmse: 4.1324, mape:0.057129,time:188.5s
+2024-12-10 11:00:00,936 - model.pytorch.models_supervisor - INFO - Val loss decrease from 2.2584 to 2.2581, 
+2024-12-10 11:02:48,191 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 11:02:48,191 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 11:03:09,564 - model.pytorch.models_supervisor - INFO - Epoch [24/300] (9375) train_mae: 2.3229,  lr: 0.00100000, val:  2.2534, rmse: 4.1239, mape:0.056257,time:188.6s
+2024-12-10 11:03:50,651 - model.pytorch.models_supervisor - INFO - Epoch [24/300] (9375) train_mae: 2.3229,   lr: 0.00100000, test_mae: 2.3597, rmse: 4.3322, mape:0.059039,188.6s
+2024-12-10 11:03:50,662 - model.pytorch.models_supervisor - INFO - Saved model at 24
+2024-12-10 11:03:50,662 - model.pytorch.models_supervisor - INFO - saving to data/log/itpgtn_gt/20241210_094352_itpgtn_gt_l_12_h_3_lr_0.001_bs_64/models//epo24.tar
+2024-12-10 11:03:50,662 - model.pytorch.models_supervisor - INFO - Val loss decrease from 2.2581 to 2.2534, 
+2024-12-10 11:06:27,690 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 11:06:27,690 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 11:06:48,094 - model.pytorch.models_supervisor - INFO - Epoch [25/300] (9750) train_mae: 2.3185,  lr: 0.00100000, val:  2.2388, rmse: 4.0851, mape:0.055741,time:177.4s
+2024-12-10 11:06:48,095 - model.pytorch.models_supervisor - INFO - Val loss decrease from 2.2534 to 2.2388, 
+2024-12-10 11:09:37,274 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 11:09:37,274 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 11:09:58,743 - model.pytorch.models_supervisor - INFO - Epoch [26/300] (10125) train_mae: 2.3089,  lr: 0.00100000, val:  2.2446, rmse: 4.1128, mape:0.056232,time:190.6s
+2024-12-10 11:12:43,359 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 11:12:43,359 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 11:13:04,751 - model.pytorch.models_supervisor - INFO - Epoch [27/300] (10500) train_mae: 2.3017,  lr: 0.00100000, val:  2.2390, rmse: 4.0996, mape:0.056299,time:186.0s
+2024-12-10 11:15:52,975 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 11:15:52,975 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 11:16:14,367 - model.pytorch.models_supervisor - INFO - Epoch [28/300] (10875) train_mae: 2.2967,  lr: 0.00100000, val:  2.2304, rmse: 4.0325, mape:0.056176,time:189.6s
+2024-12-10 11:16:14,367 - model.pytorch.models_supervisor - INFO - Val loss decrease from 2.2388 to 2.2304, 
+2024-12-10 11:18:59,347 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 11:18:59,348 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 11:19:20,724 - model.pytorch.models_supervisor - INFO - Epoch [29/300] (11250) train_mae: 2.2899,  lr: 0.00100000, val:  2.2362, rmse: 4.1036, mape:0.056508,time:186.4s
+2024-12-10 11:20:01,884 - model.pytorch.models_supervisor - INFO - Epoch [29/300] (11250) train_mae: 2.2899,   lr: 0.00100000, test_mae: 2.3401, rmse: 4.2998, mape:0.059007,186.4s
+2024-12-10 11:20:01,896 - model.pytorch.models_supervisor - INFO - Saved model at 29
+2024-12-10 11:20:01,896 - model.pytorch.models_supervisor - INFO - saving to data/log/itpgtn_gt/20241210_094352_itpgtn_gt_l_12_h_3_lr_0.001_bs_64/models//epo29.tar
+2024-12-10 11:22:47,011 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 11:22:47,011 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 11:23:08,394 - model.pytorch.models_supervisor - INFO - Epoch [30/300] (11625) train_mae: 2.2852,  lr: 0.00100000, val:  2.2378, rmse: 4.1024, mape:0.056658,time:186.5s
+2024-12-10 11:25:57,742 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 11:25:57,743 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 11:26:19,304 - model.pytorch.models_supervisor - INFO - Epoch [31/300] (12000) train_mae: 2.2802,  lr: 0.00100000, val:  2.2283, rmse: 4.0788, mape:0.055723,time:190.9s
+2024-12-10 11:26:19,305 - model.pytorch.models_supervisor - INFO - Val loss decrease from 2.2304 to 2.2283, 
+2024-12-10 11:29:04,627 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 11:29:04,627 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 11:29:25,995 - model.pytorch.models_supervisor - INFO - Epoch [32/300] (12375) train_mae: 2.2736,  lr: 0.00100000, val:  2.2245, rmse: 4.0753, mape:0.055730,time:186.7s
+2024-12-10 11:29:25,995 - model.pytorch.models_supervisor - INFO - Val loss decrease from 2.2283 to 2.2245, 
+2024-12-10 11:32:14,929 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 11:32:14,929 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 11:32:34,041 - model.pytorch.models_supervisor - INFO - Epoch [33/300] (12750) train_mae: 2.2708,  lr: 0.00100000, val:  2.2335, rmse: 4.0878, mape:0.056523,time:188.0s
+2024-12-10 11:35:12,943 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 11:35:12,943 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 11:35:34,308 - model.pytorch.models_supervisor - INFO - Epoch [34/300] (13125) train_mae: 2.2661,  lr: 0.00100000, val:  2.2282, rmse: 4.0705, mape:0.056459,time:180.3s
+2024-12-10 11:36:15,487 - model.pytorch.models_supervisor - INFO - Epoch [34/300] (13125) train_mae: 2.2661,   lr: 0.00100000, test_mae: 2.3363, rmse: 4.2742, mape:0.059126,180.3s
+2024-12-10 11:36:15,498 - model.pytorch.models_supervisor - INFO - Saved model at 34
+2024-12-10 11:36:15,498 - model.pytorch.models_supervisor - INFO - saving to data/log/itpgtn_gt/20241210_094352_itpgtn_gt_l_12_h_3_lr_0.001_bs_64/models//epo34.tar
+2024-12-10 11:39:02,481 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 11:39:02,481 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 11:39:23,286 - model.pytorch.models_supervisor - INFO - Epoch [35/300] (13500) train_mae: 2.2598,  lr: 0.00100000, val:  2.2279, rmse: 4.0826, mape:0.055537,time:187.8s
+2024-12-10 11:42:14,311 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 11:42:14,311 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 11:42:35,654 - model.pytorch.models_supervisor - INFO - Epoch [36/300] (13875) train_mae: 2.2550,  lr: 0.00100000, val:  2.2276, rmse: 4.0628, mape:0.056239,time:192.4s
+2024-12-10 11:45:19,605 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 11:45:19,605 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 11:45:40,935 - model.pytorch.models_supervisor - INFO - Epoch [37/300] (14250) train_mae: 2.2490,  lr: 0.00100000, val:  2.2312, rmse: 4.0701, mape:0.055768,time:185.3s
+2024-12-10 11:48:31,696 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 11:48:31,697 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 11:48:52,922 - model.pytorch.models_supervisor - INFO - Epoch [38/300] (14625) train_mae: 2.2476,  lr: 0.00100000, val:  2.2219, rmse: 4.0701, mape:0.055804,time:192.0s
+2024-12-10 11:48:52,922 - model.pytorch.models_supervisor - INFO - Val loss decrease from 2.2245 to 2.2219, 
+2024-12-10 11:51:39,550 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 11:51:39,550 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 11:52:01,042 - model.pytorch.models_supervisor - INFO - Epoch [39/300] (15000) train_mae: 2.2421,  lr: 0.00100000, val:  2.2266, rmse: 4.0753, mape:0.056669,time:188.1s
+2024-12-10 11:52:42,489 - model.pytorch.models_supervisor - INFO - Epoch [39/300] (15000) train_mae: 2.2421,   lr: 0.00100000, test_mae: 2.3402, rmse: 4.2927, mape:0.059715,188.1s
+2024-12-10 11:52:42,500 - model.pytorch.models_supervisor - INFO - Saved model at 39
+2024-12-10 11:52:42,500 - model.pytorch.models_supervisor - INFO - saving to data/log/itpgtn_gt/20241210_094352_itpgtn_gt_l_12_h_3_lr_0.001_bs_64/models//epo39.tar
+2024-12-10 11:55:28,576 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 11:55:28,576 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 11:55:50,067 - model.pytorch.models_supervisor - INFO - Epoch [40/300] (15375) train_mae: 2.2378,  lr: 0.00100000, val:  2.2462, rmse: 4.1073, mape:0.057880,time:187.6s
+2024-12-10 11:58:41,106 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 11:58:41,106 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 11:59:02,603 - model.pytorch.models_supervisor - INFO - Epoch [41/300] (15750) train_mae: 2.2355,  lr: 0.00100000, val:  2.2372, rmse: 4.0897, mape:0.057000,time:192.5s
+2024-12-10 12:01:39,660 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 12:01:39,660 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 12:02:01,160 - model.pytorch.models_supervisor - INFO - Epoch [42/300] (16125) train_mae: 2.2282,  lr: 0.00100000, val:  2.2296, rmse: 4.0910, mape:0.055781,time:178.6s
+2024-12-10 12:04:52,248 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 12:04:52,248 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 12:05:13,755 - model.pytorch.models_supervisor - INFO - Epoch [43/300] (16500) train_mae: 2.2252,  lr: 0.00100000, val:  2.2327, rmse: 4.1066, mape:0.056605,time:192.6s
+2024-12-10 12:08:00,131 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 12:08:00,131 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 12:08:21,627 - model.pytorch.models_supervisor - INFO - Epoch [44/300] (16875) train_mae: 2.2216,  lr: 0.00100000, val:  2.2400, rmse: 4.1145, mape:0.056722,time:187.9s
+2024-12-10 12:09:03,261 - model.pytorch.models_supervisor - INFO - Epoch [44/300] (16875) train_mae: 2.2216,   lr: 0.00100000, test_mae: 2.3482, rmse: 4.3219, mape:0.059323,187.9s
+2024-12-10 12:09:03,272 - model.pytorch.models_supervisor - INFO - Saved model at 44
+2024-12-10 12:09:03,272 - model.pytorch.models_supervisor - INFO - saving to data/log/itpgtn_gt/20241210_094352_itpgtn_gt_l_12_h_3_lr_0.001_bs_64/models//epo44.tar
+2024-12-10 12:11:49,278 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 12:11:49,278 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 12:12:10,765 - model.pytorch.models_supervisor - INFO - Epoch [45/300] (17250) train_mae: 2.2194,  lr: 0.00100000, val:  2.2331, rmse: 4.1025, mape:0.056380,time:187.5s
+2024-12-10 12:15:01,792 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 12:15:01,792 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 12:15:23,303 - model.pytorch.models_supervisor - INFO - Epoch [46/300] (17625) train_mae: 2.2151,  lr: 0.00100000, val:  2.2389, rmse: 4.1153, mape:0.056558,time:192.5s
+2024-12-10 12:18:09,435 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 12:18:09,435 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 12:18:30,921 - model.pytorch.models_supervisor - INFO - Epoch [47/300] (18000) train_mae: 2.2132,  lr: 0.00100000, val:  2.2293, rmse: 4.1011, mape:0.055740,time:187.6s
+2024-12-10 12:21:19,681 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 12:21:19,681 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 12:21:39,006 - model.pytorch.models_supervisor - INFO - Epoch [48/300] (18375) train_mae: 2.2096,  lr: 0.00100000, val:  2.2387, rmse: 4.1203, mape:0.056700,time:188.1s
+2024-12-10 12:24:25,378 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 12:24:25,378 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 12:24:46,658 - model.pytorch.models_supervisor - INFO - Epoch [49/300] (18750) train_mae: 2.2035,  lr: 0.00010000, val:  2.2407, rmse: 4.1255, mape:0.056348,time:187.7s
+2024-12-10 12:25:27,950 - model.pytorch.models_supervisor - INFO - Epoch [49/300] (18750) train_mae: 2.2035,   lr: 0.00010000, test_mae: 2.3472, rmse: 4.3303, mape:0.058889,187.7s
+2024-12-10 12:25:27,961 - model.pytorch.models_supervisor - INFO - Saved model at 49
+2024-12-10 12:25:27,961 - model.pytorch.models_supervisor - INFO - saving to data/log/itpgtn_gt/20241210_094352_itpgtn_gt_l_12_h_3_lr_0.001_bs_64/models//epo49.tar
+2024-12-10 12:28:05,025 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 12:28:05,025 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 12:28:25,124 - model.pytorch.models_supervisor - INFO - Epoch [50/300] (19125) train_mae: 2.1728,  lr: 0.00010000, val:  2.1985, rmse: 4.0396, mape:0.054742,time:177.2s
+2024-12-10 12:28:25,124 - model.pytorch.models_supervisor - INFO - Val loss decrease from 2.2219 to 2.1985, 
+2024-12-10 12:31:14,125 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 12:31:14,125 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 12:31:35,437 - model.pytorch.models_supervisor - INFO - Epoch [51/300] (19500) train_mae: 2.1622,  lr: 0.00010000, val:  2.1995, rmse: 4.0416, mape:0.054759,time:190.3s
+2024-12-10 12:34:20,015 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 12:34:20,015 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 12:34:41,356 - model.pytorch.models_supervisor - INFO - Epoch [52/300] (19875) train_mae: 2.1584,  lr: 0.00010000, val:  2.2003, rmse: 4.0428, mape:0.054833,time:185.9s
+2024-12-10 12:37:30,380 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 12:37:30,380 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 12:37:51,292 - model.pytorch.models_supervisor - INFO - Epoch [53/300] (20250) train_mae: 2.1561,  lr: 0.00010000, val:  2.2005, rmse: 4.0452, mape:0.054874,time:189.9s
+2024-12-10 12:40:36,420 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 12:40:36,420 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 12:40:57,781 - model.pytorch.models_supervisor - INFO - Epoch [54/300] (20625) train_mae: 2.1540,  lr: 0.00010000, val:  2.1996, rmse: 4.0442, mape:0.054654,time:186.5s
+2024-12-10 12:41:39,173 - model.pytorch.models_supervisor - INFO - Epoch [54/300] (20625) train_mae: 2.1540,   lr: 0.00010000, test_mae: 2.3154, rmse: 4.2598, mape:0.057255,186.5s
+2024-12-10 12:41:39,185 - model.pytorch.models_supervisor - INFO - Saved model at 54
+2024-12-10 12:41:39,185 - model.pytorch.models_supervisor - INFO - saving to data/log/itpgtn_gt/20241210_094352_itpgtn_gt_l_12_h_3_lr_0.001_bs_64/models//epo54.tar
+2024-12-10 12:44:22,798 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 12:44:22,798 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 12:44:44,107 - model.pytorch.models_supervisor - INFO - Epoch [55/300] (21000) train_mae: 2.1522,  lr: 0.00010000, val:  2.1998, rmse: 4.0425, mape:0.054647,time:184.9s
+2024-12-10 12:47:33,076 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 12:47:33,076 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 12:47:54,419 - model.pytorch.models_supervisor - INFO - Epoch [56/300] (21375) train_mae: 2.1501,  lr: 0.00010000, val:  2.2015, rmse: 4.0496, mape:0.054792,time:190.3s
+2024-12-10 12:50:38,972 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 12:50:38,972 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 12:51:00,319 - model.pytorch.models_supervisor - INFO - Epoch [57/300] (21750) train_mae: 2.1491,  lr: 0.00010000, val:  2.2006, rmse: 4.0490, mape:0.054766,time:185.9s
+2024-12-10 12:53:47,367 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 12:53:47,367 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 12:54:07,244 - model.pytorch.models_supervisor - INFO - Epoch [58/300] (22125) train_mae: 2.1474,  lr: 0.00010000, val:  2.2023, rmse: 4.0512, mape:0.054797,time:186.9s
+2024-12-10 12:56:46,875 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 12:56:46,875 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 12:57:08,239 - model.pytorch.models_supervisor - INFO - Epoch [59/300] (22500) train_mae: 2.1460,  lr: 0.00010000, val:  2.2022, rmse: 4.0510, mape:0.054716,time:181.0s
+2024-12-10 12:57:49,688 - model.pytorch.models_supervisor - INFO - Epoch [59/300] (22500) train_mae: 2.1460,   lr: 0.00010000, test_mae: 2.3197, rmse: 4.2707, mape:0.057383,181.0s
+2024-12-10 12:57:49,699 - model.pytorch.models_supervisor - INFO - Saved model at 59
+2024-12-10 12:57:49,699 - model.pytorch.models_supervisor - INFO - saving to data/log/itpgtn_gt/20241210_094352_itpgtn_gt_l_12_h_3_lr_0.001_bs_64/models//epo59.tar
+2024-12-10 13:00:35,744 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 13:00:35,744 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 13:00:56,431 - model.pytorch.models_supervisor - INFO - Epoch [60/300] (22875) train_mae: 2.1446,  lr: 0.00010000, val:  2.2029, rmse: 4.0550, mape:0.054808,time:186.7s
+2024-12-10 13:03:45,790 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 13:03:45,790 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 13:04:07,340 - model.pytorch.models_supervisor - INFO - Epoch [61/300] (23250) train_mae: 2.1434,  lr: 0.00010000, val:  2.2034, rmse: 4.0543, mape:0.054781,time:190.9s
+2024-12-10 13:06:53,459 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 13:06:53,459 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 13:07:15,007 - model.pytorch.models_supervisor - INFO - Epoch [62/300] (23625) train_mae: 2.1422,  lr: 0.00010000, val:  2.2044, rmse: 4.0598, mape:0.055036,time:187.7s
+2024-12-10 13:10:05,561 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 13:10:05,561 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 13:10:25,716 - model.pytorch.models_supervisor - INFO - Epoch [63/300] (24000) train_mae: 2.1415,  lr: 0.00010000, val:  2.2040, rmse: 4.0589, mape:0.054848,time:190.7s
+2024-12-10 13:13:12,179 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 13:13:12,179 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 13:13:33,539 - model.pytorch.models_supervisor - INFO - Epoch [64/300] (24375) train_mae: 2.1401,  lr: 0.00010000, val:  2.2040, rmse: 4.0603, mape:0.054923,time:187.8s
+2024-12-10 13:14:15,108 - model.pytorch.models_supervisor - INFO - Epoch [64/300] (24375) train_mae: 2.1401,   lr: 0.00010000, test_mae: 2.3222, rmse: 4.2819, mape:0.057655,187.8s
+2024-12-10 13:14:15,119 - model.pytorch.models_supervisor - INFO - Saved model at 64
+2024-12-10 13:14:15,119 - model.pytorch.models_supervisor - INFO - saving to data/log/itpgtn_gt/20241210_094352_itpgtn_gt_l_12_h_3_lr_0.001_bs_64/models//epo64.tar
+2024-12-10 13:16:59,383 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 13:16:59,383 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 13:17:20,333 - model.pytorch.models_supervisor - INFO - Epoch [65/300] (24750) train_mae: 2.1392,  lr: 0.00010000, val:  2.2044, rmse: 4.0581, mape:0.054802,time:185.2s
+2024-12-10 13:20:09,468 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 13:20:09,468 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 13:20:29,945 - model.pytorch.models_supervisor - INFO - Epoch [66/300] (25125) train_mae: 2.1382,  lr: 0.00010000, val:  2.2052, rmse: 4.0635, mape:0.054836,time:189.6s
+2024-12-10 13:23:06,151 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 13:23:06,151 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 13:23:25,962 - model.pytorch.models_supervisor - INFO - Epoch [67/300] (25500) train_mae: 2.1369,  lr: 0.00010000, val:  2.2060, rmse: 4.0645, mape:0.054956,time:176.0s
+2024-12-10 13:26:13,346 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 13:26:13,346 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 13:26:34,542 - model.pytorch.models_supervisor - INFO - Epoch [68/300] (25875) train_mae: 2.1360,  lr: 0.00010000, val:  2.2071, rmse: 4.0676, mape:0.055147,time:188.6s
+2024-12-10 13:29:17,310 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 13:29:17,310 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 13:29:38,497 - model.pytorch.models_supervisor - INFO - Epoch [69/300] (26250) train_mae: 2.1352,  lr: 0.00010000, val:  2.2074, rmse: 4.0681, mape:0.055123,time:184.0s
+2024-12-10 13:30:19,829 - model.pytorch.models_supervisor - INFO - Epoch [69/300] (26250) train_mae: 2.1352,   lr: 0.00010000, test_mae: 2.3267, rmse: 4.2923, mape:0.057861,184.0s
+2024-12-10 13:30:19,840 - model.pytorch.models_supervisor - INFO - Saved model at 69
+2024-12-10 13:30:19,840 - model.pytorch.models_supervisor - INFO - saving to data/log/itpgtn_gt/20241210_094352_itpgtn_gt_l_12_h_3_lr_0.001_bs_64/models//epo69.tar
+2024-12-10 13:33:05,597 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 13:33:05,597 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 13:33:26,784 - model.pytorch.models_supervisor - INFO - Epoch [70/300] (26625) train_mae: 2.1344,  lr: 0.00010000, val:  2.2085, rmse: 4.0685, mape:0.055068,time:186.9s
+2024-12-10 13:36:13,686 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 13:36:13,686 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 13:36:35,062 - model.pytorch.models_supervisor - INFO - Epoch [71/300] (27000) train_mae: 2.1334,  lr: 0.00010000, val:  2.2071, rmse: 4.0683, mape:0.054959,time:188.3s
+2024-12-10 13:39:19,563 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 13:39:19,564 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 13:39:40,915 - model.pytorch.models_supervisor - INFO - Epoch [72/300] (27375) train_mae: 2.1321,  lr: 0.00010000, val:  2.2077, rmse: 4.0723, mape:0.054961,time:185.9s
+2024-12-10 13:42:30,194 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 13:42:30,194 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 13:42:50,698 - model.pytorch.models_supervisor - INFO - Epoch [73/300] (27750) train_mae: 2.1313,  lr: 0.00010000, val:  2.2094, rmse: 4.0743, mape:0.055152,time:189.8s
+2024-12-10 13:45:35,595 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 13:45:35,595 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 13:45:56,800 - model.pytorch.models_supervisor - INFO - Epoch [74/300] (28125) train_mae: 2.1308,  lr: 0.00010000, val:  2.2086, rmse: 4.0740, mape:0.054987,time:186.1s
+2024-12-10 13:46:38,422 - model.pytorch.models_supervisor - INFO - Epoch [74/300] (28125) train_mae: 2.1308,   lr: 0.00010000, test_mae: 2.3286, rmse: 4.3000, mape:0.057744,186.1s
+2024-12-10 13:46:38,434 - model.pytorch.models_supervisor - INFO - Saved model at 74
+2024-12-10 13:46:38,434 - model.pytorch.models_supervisor - INFO - saving to data/log/itpgtn_gt/20241210_094352_itpgtn_gt_l_12_h_3_lr_0.001_bs_64/models//epo74.tar
+2024-12-10 13:49:17,428 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 13:49:17,428 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 13:49:35,959 - model.pytorch.models_supervisor - INFO - Epoch [75/300] (28500) train_mae: 2.1296,  lr: 0.00010000, val:  2.2091, rmse: 4.0739, mape:0.054987,time:177.5s
+2024-12-10 13:52:19,448 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 13:52:19,448 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 13:52:40,606 - model.pytorch.models_supervisor - INFO - Epoch [76/300] (28875) train_mae: 2.1287,  lr: 0.00010000, val:  2.2103, rmse: 4.0761, mape:0.055120,time:184.6s
+2024-12-10 13:55:24,749 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 13:55:24,749 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 13:55:44,580 - model.pytorch.models_supervisor - INFO - Epoch [77/300] (29250) train_mae: 2.1283,  lr: 0.00010000, val:  2.2112, rmse: 4.0781, mape:0.055232,time:184.0s
+2024-12-10 13:58:31,980 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 13:58:31,980 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 13:58:53,069 - model.pytorch.models_supervisor - INFO - Epoch [78/300] (29625) train_mae: 2.1274,  lr: 0.00010000, val:  2.2110, rmse: 4.0816, mape:0.055177,time:188.5s
+2024-12-10 14:01:36,027 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 14:01:36,027 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 14:01:57,373 - model.pytorch.models_supervisor - INFO - Epoch [79/300] (30000) train_mae: 2.1265,  lr: 0.00010000, val:  2.2115, rmse: 4.0804, mape:0.055238,time:184.3s
+2024-12-10 14:02:40,104 - model.pytorch.models_supervisor - INFO - Epoch [79/300] (30000) train_mae: 2.1265,   lr: 0.00010000, test_mae: 2.3325, rmse: 4.3080, mape:0.057993,184.3s
+2024-12-10 14:02:40,116 - model.pytorch.models_supervisor - INFO - Saved model at 79
+2024-12-10 14:02:40,116 - model.pytorch.models_supervisor - INFO - saving to data/log/itpgtn_gt/20241210_094352_itpgtn_gt_l_12_h_3_lr_0.001_bs_64/models//epo79.tar
+2024-12-10 14:05:25,033 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 14:05:25,033 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 14:05:44,952 - model.pytorch.models_supervisor - INFO - Epoch [80/300] (30375) train_mae: 2.1260,  lr: 0.00010000, val:  2.2112, rmse: 4.0779, mape:0.055110,time:184.8s
+2024-12-10 14:08:33,124 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 14:08:33,124 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 14:08:54,489 - model.pytorch.models_supervisor - INFO - Epoch [81/300] (30750) train_mae: 2.1249,  lr: 0.00010000, val:  2.2112, rmse: 4.0821, mape:0.055156,time:189.5s
+2024-12-10 14:11:38,932 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 14:11:38,932 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 14:12:00,222 - model.pytorch.models_supervisor - INFO - Epoch [82/300] (31125) train_mae: 2.1242,  lr: 0.00010000, val:  2.2118, rmse: 4.0793, mape:0.055063,time:185.7s
+2024-12-10 14:14:49,826 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 14:14:49,826 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 14:15:10,156 - model.pytorch.models_supervisor - INFO - Epoch [83/300] (31500) train_mae: 2.1236,  lr: 0.00010000, val:  2.2133, rmse: 4.0862, mape:0.055154,time:189.9s
+2024-12-10 14:17:46,808 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 14:17:46,808 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 14:18:07,431 - model.pytorch.models_supervisor - INFO - Epoch [84/300] (31875) train_mae: 2.1224,  lr: 0.00010000, val:  2.2136, rmse: 4.0882, mape:0.055270,time:177.3s
+2024-12-10 14:18:49,918 - model.pytorch.models_supervisor - INFO - Epoch [84/300] (31875) train_mae: 2.1224,   lr: 0.00010000, test_mae: 2.3351, rmse: 4.3170, mape:0.058022,177.3s
+2024-12-10 14:18:49,929 - model.pytorch.models_supervisor - INFO - Saved model at 84
+2024-12-10 14:18:49,930 - model.pytorch.models_supervisor - INFO - saving to data/log/itpgtn_gt/20241210_094352_itpgtn_gt_l_12_h_3_lr_0.001_bs_64/models//epo84.tar
+2024-12-10 14:21:37,451 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 14:21:37,452 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 14:21:57,099 - model.pytorch.models_supervisor - INFO - Epoch [85/300] (32250) train_mae: 2.1219,  lr: 0.00010000, val:  2.2124, rmse: 4.0843, mape:0.055142,time:187.2s
+2024-12-10 14:24:44,040 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 14:24:44,040 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 14:25:05,364 - model.pytorch.models_supervisor - INFO - Epoch [86/300] (32625) train_mae: 2.1204,  lr: 0.00010000, val:  2.2157, rmse: 4.0946, mape:0.055408,time:188.3s
+2024-12-10 14:27:49,784 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 14:27:49,784 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 14:28:11,115 - model.pytorch.models_supervisor - INFO - Epoch [87/300] (33000) train_mae: 2.1201,  lr: 0.00010000, val:  2.2130, rmse: 4.0843, mape:0.055115,time:185.7s
+2024-12-10 14:31:00,284 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 14:31:00,285 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 14:31:21,581 - model.pytorch.models_supervisor - INFO - Epoch [88/300] (33375) train_mae: 2.1193,  lr: 0.00010000, val:  2.2147, rmse: 4.0882, mape:0.055314,time:190.5s
+2024-12-10 14:34:05,992 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 14:34:05,992 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 14:34:27,291 - model.pytorch.models_supervisor - INFO - Epoch [89/300] (33750) train_mae: 2.1188,  lr: 0.00010000, val:  2.2153, rmse: 4.0904, mape:0.055268,time:185.7s
+2024-12-10 14:35:09,896 - model.pytorch.models_supervisor - INFO - Epoch [89/300] (33750) train_mae: 2.1188,   lr: 0.00010000, test_mae: 2.3379, rmse: 4.3245, mape:0.058095,185.7s
+2024-12-10 14:35:09,908 - model.pytorch.models_supervisor - INFO - Saved model at 89
+2024-12-10 14:35:09,908 - model.pytorch.models_supervisor - INFO - saving to data/log/itpgtn_gt/20241210_094352_itpgtn_gt_l_12_h_3_lr_0.001_bs_64/models//epo89.tar
+2024-12-10 14:37:54,857 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 14:37:54,857 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 14:38:15,572 - model.pytorch.models_supervisor - INFO - Epoch [90/300] (34125) train_mae: 2.1177,  lr: 0.00010000, val:  2.2159, rmse: 4.0895, mape:0.055304,time:185.7s
+2024-12-10 14:41:02,970 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 14:41:02,970 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 14:41:24,285 - model.pytorch.models_supervisor - INFO - Epoch [91/300] (34500) train_mae: 2.1169,  lr: 0.00010000, val:  2.2153, rmse: 4.0894, mape:0.055175,time:188.7s
+2024-12-10 14:44:00,622 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 14:44:00,622 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 14:44:20,922 - model.pytorch.models_supervisor - INFO - Epoch [92/300] (34875) train_mae: 2.1170,  lr: 0.00010000, val:  2.2162, rmse: 4.0915, mape:0.055310,time:176.6s
+2024-12-10 14:47:10,685 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 14:47:10,685 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 14:47:32,125 - model.pytorch.models_supervisor - INFO - Epoch [93/300] (35250) train_mae: 2.1163,  lr: 0.00010000, val:  2.2152, rmse: 4.0923, mape:0.055189,time:191.2s
+2024-12-10 14:50:16,815 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 14:50:16,815 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 14:50:38,112 - model.pytorch.models_supervisor - INFO - Epoch [94/300] (35625) train_mae: 2.1154,  lr: 0.00010000, val:  2.2162, rmse: 4.0936, mape:0.055249,time:186.0s
+2024-12-10 14:51:20,738 - model.pytorch.models_supervisor - INFO - Epoch [94/300] (35625) train_mae: 2.1154,   lr: 0.00010000, test_mae: 2.3388, rmse: 4.3267, mape:0.058054,186.0s
+2024-12-10 14:51:20,750 - model.pytorch.models_supervisor - INFO - Saved model at 94
+2024-12-10 14:51:20,750 - model.pytorch.models_supervisor - INFO - saving to data/log/itpgtn_gt/20241210_094352_itpgtn_gt_l_12_h_3_lr_0.001_bs_64/models//epo94.tar
+2024-12-10 14:54:07,134 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 14:54:07,134 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 14:54:27,073 - model.pytorch.models_supervisor - INFO - Epoch [95/300] (36000) train_mae: 2.1147,  lr: 0.00010000, val:  2.2179, rmse: 4.0950, mape:0.055338,time:186.3s
+2024-12-10 14:57:14,614 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 14:57:14,614 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 14:57:35,253 - model.pytorch.models_supervisor - INFO - Epoch [96/300] (36375) train_mae: 2.1138,  lr: 0.00010000, val:  2.2177, rmse: 4.0965, mape:0.055415,time:188.2s
+2024-12-10 15:00:20,534 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 15:00:20,534 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 15:00:41,362 - model.pytorch.models_supervisor - INFO - Epoch [97/300] (36750) train_mae: 2.1133,  lr: 0.00010000, val:  2.2176, rmse: 4.0980, mape:0.055317,time:186.1s
+2024-12-10 15:03:29,610 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 15:03:29,610 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 15:03:49,844 - model.pytorch.models_supervisor - INFO - Epoch [98/300] (37125) train_mae: 2.1128,  lr: 0.00010000, val:  2.2193, rmse: 4.1040, mape:0.055508,time:188.5s
+2024-12-10 15:06:33,592 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 15:06:33,592 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 15:06:54,775 - model.pytorch.models_supervisor - INFO - Epoch [99/300] (37500) train_mae: 2.1123,  lr: 0.00001000, val:  2.2187, rmse: 4.1027, mape:0.055375,time:184.9s
+2024-12-10 15:07:36,357 - model.pytorch.models_supervisor - INFO - Epoch [99/300] (37500) train_mae: 2.1123,   lr: 0.00001000, test_mae: 2.3414, rmse: 4.3356, mape:0.058161,184.9s
+2024-12-10 15:07:36,367 - model.pytorch.models_supervisor - INFO - Saved model at 99
+2024-12-10 15:07:36,368 - model.pytorch.models_supervisor - INFO - saving to data/log/itpgtn_gt/20241210_094352_itpgtn_gt_l_12_h_3_lr_0.001_bs_64/models//epo99.tar
+2024-12-10 15:10:17,137 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 15:10:17,137 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 15:10:35,493 - model.pytorch.models_supervisor - INFO - Epoch [100/300] (37875) train_mae: 2.1087,  lr: 0.00001000, val:  2.2158, rmse: 4.0995, mape:0.055106,time:179.1s
+2024-12-10 15:13:20,988 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 15:13:20,988 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 15:13:41,881 - model.pytorch.models_supervisor - INFO - Epoch [101/300] (38250) train_mae: 2.1070,  lr: 0.00001000, val:  2.2163, rmse: 4.0988, mape:0.055133,time:186.4s
+2024-12-10 15:16:24,546 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 15:16:24,547 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 15:16:44,668 - model.pytorch.models_supervisor - INFO - Epoch [102/300] (38625) train_mae: 2.1067,  lr: 0.00001000, val:  2.2158, rmse: 4.0987, mape:0.055105,time:182.8s
+2024-12-10 15:19:32,466 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 15:19:32,466 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 15:19:53,580 - model.pytorch.models_supervisor - INFO - Epoch [103/300] (39000) train_mae: 2.1059,  lr: 0.00001000, val:  2.2159, rmse: 4.0996, mape:0.055093,time:188.9s
+2024-12-10 15:22:36,740 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 15:22:36,740 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 15:22:57,791 - model.pytorch.models_supervisor - INFO - Epoch [104/300] (39375) train_mae: 2.1061,  lr: 0.00001000, val:  2.2157, rmse: 4.0993, mape:0.055070,time:184.2s
+2024-12-10 15:23:40,093 - model.pytorch.models_supervisor - INFO - Epoch [104/300] (39375) train_mae: 2.1061,   lr: 0.00001000, test_mae: 2.3360, rmse: 4.3273, mape:0.057864,184.2s
+2024-12-10 15:23:40,104 - model.pytorch.models_supervisor - INFO - Saved model at 104
+2024-12-10 15:23:40,105 - model.pytorch.models_supervisor - INFO - saving to data/log/itpgtn_gt/20241210_094352_itpgtn_gt_l_12_h_3_lr_0.001_bs_64/models//epo104.tar
+2024-12-10 15:26:25,361 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 15:26:25,361 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 15:26:45,757 - model.pytorch.models_supervisor - INFO - Epoch [105/300] (39750) train_mae: 2.1056,  lr: 0.00001000, val:  2.2154, rmse: 4.0987, mape:0.055074,time:185.7s
+2024-12-10 15:29:33,597 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 15:29:33,597 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 15:29:54,994 - model.pytorch.models_supervisor - INFO - Epoch [106/300] (40125) train_mae: 2.1053,  lr: 0.00001000, val:  2.2161, rmse: 4.1006, mape:0.055161,time:189.2s
+2024-12-10 15:32:38,005 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 15:32:38,005 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 15:32:59,370 - model.pytorch.models_supervisor - INFO - Epoch [107/300] (40500) train_mae: 2.1056,  lr: 0.00001000, val:  2.2160, rmse: 4.0997, mape:0.055135,time:184.4s
+2024-12-10 15:35:47,783 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 15:35:47,783 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 15:36:07,727 - model.pytorch.models_supervisor - INFO - Epoch [108/300] (40875) train_mae: 2.1053,  lr: 0.00001000, val:  2.2157, rmse: 4.0993, mape:0.055093,time:188.4s
+2024-12-10 15:38:45,300 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 15:38:45,300 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 15:39:06,642 - model.pytorch.models_supervisor - INFO - Epoch [109/300] (41250) train_mae: 2.1054,  lr: 0.00001000, val:  2.2160, rmse: 4.0995, mape:0.055088,time:178.9s
+2024-12-10 15:39:49,426 - model.pytorch.models_supervisor - INFO - Epoch [109/300] (41250) train_mae: 2.1054,   lr: 0.00001000, test_mae: 2.3367, rmse: 4.3284, mape:0.057896,178.9s
+2024-12-10 15:39:49,438 - model.pytorch.models_supervisor - INFO - Saved model at 109
+2024-12-10 15:39:49,438 - model.pytorch.models_supervisor - INFO - saving to data/log/itpgtn_gt/20241210_094352_itpgtn_gt_l_12_h_3_lr_0.001_bs_64/models//epo109.tar
+2024-12-10 15:42:36,490 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 15:42:36,490 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 15:42:57,903 - model.pytorch.models_supervisor - INFO - Epoch [110/300] (41625) train_mae: 2.1050,  lr: 0.00001000, val:  2.2164, rmse: 4.1008, mape:0.055128,time:188.5s
+2024-12-10 15:45:45,034 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 15:45:45,034 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 15:46:06,377 - model.pytorch.models_supervisor - INFO - Epoch [111/300] (42000) train_mae: 2.1049,  lr: 0.00001000, val:  2.2163, rmse: 4.1009, mape:0.055138,time:188.5s
+2024-12-10 15:48:50,917 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 15:48:50,917 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 15:49:11,114 - model.pytorch.models_supervisor - INFO - Epoch [112/300] (42375) train_mae: 2.1049,  lr: 0.00001000, val:  2.2163, rmse: 4.1013, mape:0.055124,time:184.7s
+2024-12-10 15:52:00,772 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 15:52:00,772 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 15:52:21,249 - model.pytorch.models_supervisor - INFO - Epoch [113/300] (42750) train_mae: 2.1048,  lr: 0.00001000, val:  2.2161, rmse: 4.0999, mape:0.055073,time:190.1s
+2024-12-10 15:55:06,765 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 15:55:06,765 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 15:55:28,049 - model.pytorch.models_supervisor - INFO - Epoch [114/300] (43125) train_mae: 2.1047,  lr: 0.00001000, val:  2.2161, rmse: 4.0997, mape:0.055078,time:186.8s
+2024-12-10 15:56:09,854 - model.pytorch.models_supervisor - INFO - Epoch [114/300] (43125) train_mae: 2.1047,   lr: 0.00001000, test_mae: 2.3367, rmse: 4.3286, mape:0.057892,186.8s
+2024-12-10 15:56:09,865 - model.pytorch.models_supervisor - INFO - Saved model at 114
+2024-12-10 15:56:09,865 - model.pytorch.models_supervisor - INFO - saving to data/log/itpgtn_gt/20241210_094352_itpgtn_gt_l_12_h_3_lr_0.001_bs_64/models//epo114.tar
+2024-12-10 15:58:56,548 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 15:58:56,548 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 15:59:16,224 - model.pytorch.models_supervisor - INFO - Epoch [115/300] (43500) train_mae: 2.1042,  lr: 0.00001000, val:  2.2164, rmse: 4.1008, mape:0.055097,time:186.4s
+2024-12-10 16:02:05,692 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 16:02:05,692 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 16:02:26,969 - model.pytorch.models_supervisor - INFO - Epoch [116/300] (43875) train_mae: 2.1045,  lr: 0.00001000, val:  2.2164, rmse: 4.1010, mape:0.055152,time:190.7s
+2024-12-10 16:05:04,227 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 16:05:04,227 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 16:05:24,174 - model.pytorch.models_supervisor - INFO - Epoch [117/300] (44250) train_mae: 2.1043,  lr: 0.00001000, val:  2.2163, rmse: 4.1006, mape:0.055111,time:177.2s
+2024-12-10 16:08:11,372 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 16:08:11,372 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 16:08:32,744 - model.pytorch.models_supervisor - INFO - Epoch [118/300] (44625) train_mae: 2.1040,  lr: 0.00001000, val:  2.2163, rmse: 4.1018, mape:0.055113,time:188.6s
+2024-12-10 16:11:17,516 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 16:11:17,516 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 16:11:38,798 - model.pytorch.models_supervisor - INFO - Epoch [119/300] (45000) train_mae: 2.1039,  lr: 0.00001000, val:  2.2161, rmse: 4.1002, mape:0.055089,time:186.1s
+2024-12-10 16:12:21,401 - model.pytorch.models_supervisor - INFO - Epoch [119/300] (45000) train_mae: 2.1039,   lr: 0.00001000, test_mae: 2.3371, rmse: 4.3303, mape:0.057908,186.1s
+2024-12-10 16:12:21,413 - model.pytorch.models_supervisor - INFO - Saved model at 119
+2024-12-10 16:12:21,413 - model.pytorch.models_supervisor - INFO - saving to data/log/itpgtn_gt/20241210_094352_itpgtn_gt_l_12_h_3_lr_0.001_bs_64/models//epo119.tar
+2024-12-10 16:15:08,590 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 16:15:08,590 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 16:15:28,929 - model.pytorch.models_supervisor - INFO - Epoch [120/300] (45375) train_mae: 2.1038,  lr: 0.00001000, val:  2.2166, rmse: 4.1013, mape:0.055151,time:187.5s
+2024-12-10 16:18:16,947 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 16:18:16,947 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 16:18:38,229 - model.pytorch.models_supervisor - INFO - Epoch [121/300] (45750) train_mae: 2.1042,  lr: 0.00001000, val:  2.2164, rmse: 4.1014, mape:0.055115,time:189.3s
+2024-12-10 16:21:22,949 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 16:21:22,949 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 16:21:44,227 - model.pytorch.models_supervisor - INFO - Epoch [122/300] (46125) train_mae: 2.1037,  lr: 0.00001000, val:  2.2165, rmse: 4.1015, mape:0.055095,time:186.0s
+2024-12-10 16:24:30,521 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 16:24:30,521 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 16:24:50,700 - model.pytorch.models_supervisor - INFO - Epoch [123/300] (46500) train_mae: 2.1036,  lr: 0.00001000, val:  2.2166, rmse: 4.1018, mape:0.055089,time:186.5s
+2024-12-10 16:27:37,813 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 16:27:37,813 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 16:27:58,884 - model.pytorch.models_supervisor - INFO - Epoch [124/300] (46875) train_mae: 2.1037,  lr: 0.00001000, val:  2.2166, rmse: 4.1018, mape:0.055105,time:188.2s
+2024-12-10 16:28:41,439 - model.pytorch.models_supervisor - INFO - Epoch [124/300] (46875) train_mae: 2.1037,   lr: 0.00001000, test_mae: 2.3373, rmse: 4.3305, mape:0.057909,188.2s
+2024-12-10 16:28:41,450 - model.pytorch.models_supervisor - INFO - Saved model at 124
+2024-12-10 16:28:41,450 - model.pytorch.models_supervisor - INFO - saving to data/log/itpgtn_gt/20241210_094352_itpgtn_gt_l_12_h_3_lr_0.001_bs_64/models//epo124.tar
+2024-12-10 16:31:21,085 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 16:31:21,085 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 16:31:41,017 - model.pytorch.models_supervisor - INFO - Epoch [125/300] (47250) train_mae: 2.1033,  lr: 0.00001000, val:  2.2167, rmse: 4.1018, mape:0.055144,time:179.6s
+2024-12-10 16:34:27,811 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 16:34:27,811 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 16:34:49,089 - model.pytorch.models_supervisor - INFO - Epoch [126/300] (47625) train_mae: 2.1032,  lr: 0.00001000, val:  2.2165, rmse: 4.1023, mape:0.055084,time:188.1s
+2024-12-10 16:37:33,808 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 16:37:33,808 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 16:37:55,010 - model.pytorch.models_supervisor - INFO - Epoch [127/300] (48000) train_mae: 2.1030,  lr: 0.00001000, val:  2.2169, rmse: 4.1025, mape:0.055121,time:185.9s
+2024-12-10 16:40:45,001 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 16:40:45,001 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 16:41:04,424 - model.pytorch.models_supervisor - INFO - Epoch [128/300] (48375) train_mae: 2.1032,  lr: 0.00001000, val:  2.2168, rmse: 4.1026, mape:0.055132,time:189.4s
+2024-12-10 16:43:49,750 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 16:43:49,751 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 16:44:11,036 - model.pytorch.models_supervisor - INFO - Epoch [129/300] (48750) train_mae: 2.1029,  lr: 0.00001000, val:  2.2173, rmse: 4.1036, mape:0.055177,time:186.6s
+2024-12-10 16:44:53,212 - model.pytorch.models_supervisor - INFO - Epoch [129/300] (48750) train_mae: 2.1029,   lr: 0.00001000, test_mae: 2.3381, rmse: 4.3334, mape:0.057993,186.6s
+2024-12-10 16:44:53,223 - model.pytorch.models_supervisor - INFO - Saved model at 129
+2024-12-10 16:44:53,224 - model.pytorch.models_supervisor - INFO - saving to data/log/itpgtn_gt/20241210_094352_itpgtn_gt_l_12_h_3_lr_0.001_bs_64/models//epo129.tar
+2024-12-10 16:47:39,331 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 16:47:39,331 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 16:47:59,723 - model.pytorch.models_supervisor - INFO - Epoch [130/300] (49125) train_mae: 2.1032,  lr: 0.00001000, val:  2.2171, rmse: 4.1036, mape:0.055164,time:186.5s
+2024-12-10 16:50:49,033 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 16:50:49,033 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 16:51:10,242 - model.pytorch.models_supervisor - INFO - Epoch [131/300] (49500) train_mae: 2.1029,  lr: 0.00001000, val:  2.2167, rmse: 4.1016, mape:0.055112,time:190.5s
+2024-12-10 16:53:55,089 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 16:53:55,090 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 16:54:16,379 - model.pytorch.models_supervisor - INFO - Epoch [132/300] (49875) train_mae: 2.1025,  lr: 0.00001000, val:  2.2172, rmse: 4.1032, mape:0.055125,time:186.1s
+2024-12-10 16:57:03,717 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 16:57:03,717 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 16:57:23,879 - model.pytorch.models_supervisor - INFO - Epoch [133/300] (50250) train_mae: 2.1028,  lr: 0.00001000, val:  2.2172, rmse: 4.1035, mape:0.055156,time:187.5s
+2024-12-10 17:00:01,908 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 17:00:01,908 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 17:00:23,438 - model.pytorch.models_supervisor - INFO - Epoch [134/300] (50625) train_mae: 2.1029,  lr: 0.00001000, val:  2.2171, rmse: 4.1036, mape:0.055142,time:179.6s
+2024-12-10 17:01:06,584 - model.pytorch.models_supervisor - INFO - Epoch [134/300] (50625) train_mae: 2.1029,   lr: 0.00001000, test_mae: 2.3383, rmse: 4.3335, mape:0.057970,179.6s
+2024-12-10 17:01:06,596 - model.pytorch.models_supervisor - INFO - Saved model at 134
+2024-12-10 17:01:06,596 - model.pytorch.models_supervisor - INFO - saving to data/log/itpgtn_gt/20241210_094352_itpgtn_gt_l_12_h_3_lr_0.001_bs_64/models//epo134.tar
+2024-12-10 17:02:54,412 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 17:02:54,412 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 17:03:03,495 - model.pytorch.models_supervisor - INFO - Epoch [135/300] (51000) train_mae: 2.1027,  lr: 0.00001000, val:  2.2170, rmse: 4.1032, mape:0.055148,time:116.9s
+2024-12-10 17:04:28,061 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 17:04:28,061 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 17:04:38,135 - model.pytorch.models_supervisor - INFO - Epoch [136/300] (51375) train_mae: 2.1025,  lr: 0.00001000, val:  2.2175, rmse: 4.1045, mape:0.055207,time:94.6s
+2024-12-10 17:06:01,422 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 17:06:01,422 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 17:06:11,482 - model.pytorch.models_supervisor - INFO - Epoch [137/300] (51750) train_mae: 2.1023,  lr: 0.00001000, val:  2.2171, rmse: 4.1030, mape:0.055105,time:93.3s
+2024-12-10 17:07:37,046 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 17:07:37,046 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 17:07:47,119 - model.pytorch.models_supervisor - INFO - Epoch [138/300] (52125) train_mae: 2.1020,  lr: 0.00001000, val:  2.2176, rmse: 4.1048, mape:0.055175,time:95.6s
+2024-12-10 17:09:10,406 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 17:09:10,406 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 17:09:20,468 - model.pytorch.models_supervisor - INFO - Epoch [139/300] (52500) train_mae: 2.1022,  lr: 0.00001000, val:  2.2179, rmse: 4.1053, mape:0.055168,time:93.3s
+2024-12-10 17:09:40,623 - model.pytorch.models_supervisor - INFO - Epoch [139/300] (52500) train_mae: 2.1022,   lr: 0.00001000, test_mae: 2.3387, rmse: 4.3353, mape:0.057978,93.3s
+2024-12-10 17:09:40,634 - model.pytorch.models_supervisor - INFO - Saved model at 139
+2024-12-10 17:09:40,634 - model.pytorch.models_supervisor - INFO - saving to data/log/itpgtn_gt/20241210_094352_itpgtn_gt_l_12_h_3_lr_0.001_bs_64/models//epo139.tar
+2024-12-10 17:11:03,975 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 17:11:03,975 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 17:11:14,039 - model.pytorch.models_supervisor - INFO - Epoch [140/300] (52875) train_mae: 2.1021,  lr: 0.00001000, val:  2.2177, rmse: 4.1046, mape:0.055196,time:93.4s
+2024-12-10 17:12:39,594 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 17:12:39,594 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 17:12:49,654 - model.pytorch.models_supervisor - INFO - Epoch [141/300] (53250) train_mae: 2.1019,  lr: 0.00001000, val:  2.2177, rmse: 4.1044, mape:0.055128,time:95.6s
+2024-12-10 17:14:09,053 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 17:14:09,053 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 17:14:18,728 - model.pytorch.models_supervisor - INFO - Epoch [142/300] (53625) train_mae: 2.1015,  lr: 0.00001000, val:  2.2177, rmse: 4.1051, mape:0.055176,time:89.1s
+2024-12-10 17:15:44,291 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 17:15:44,291 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 17:15:54,364 - model.pytorch.models_supervisor - INFO - Epoch [143/300] (54000) train_mae: 2.1017,  lr: 0.00001000, val:  2.2180, rmse: 4.1053, mape:0.055168,time:95.6s
+2024-12-10 17:17:17,700 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 17:17:17,700 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 17:17:27,763 - model.pytorch.models_supervisor - INFO - Epoch [144/300] (54375) train_mae: 2.1017,  lr: 0.00001000, val:  2.2174, rmse: 4.1050, mape:0.055156,time:93.4s
+2024-12-10 17:17:47,893 - model.pytorch.models_supervisor - INFO - Epoch [144/300] (54375) train_mae: 2.1017,   lr: 0.00001000, test_mae: 2.3385, rmse: 4.3359, mape:0.057962,93.4s
+2024-12-10 17:17:47,904 - model.pytorch.models_supervisor - INFO - Saved model at 144
+2024-12-10 17:17:47,905 - model.pytorch.models_supervisor - INFO - saving to data/log/itpgtn_gt/20241210_094352_itpgtn_gt_l_12_h_3_lr_0.001_bs_64/models//epo144.tar
+2024-12-10 17:19:12,794 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 17:19:12,794 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 17:19:21,797 - model.pytorch.models_supervisor - INFO - Epoch [145/300] (54750) train_mae: 2.1013,  lr: 0.00001000, val:  2.2176, rmse: 4.1046, mape:0.055189,time:93.9s
+2024-12-10 17:20:47,108 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 17:20:47,108 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 17:20:57,175 - model.pytorch.models_supervisor - INFO - Epoch [146/300] (55125) train_mae: 2.1014,  lr: 0.00001000, val:  2.2173, rmse: 4.1042, mape:0.055133,time:95.4s
+2024-12-10 17:22:20,489 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 17:22:20,489 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 17:22:30,551 - model.pytorch.models_supervisor - INFO - Epoch [147/300] (55500) train_mae: 2.1013,  lr: 0.00001000, val:  2.2179, rmse: 4.1060, mape:0.055158,time:93.4s
+2024-12-10 17:23:56,075 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 17:23:56,075 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 17:24:06,147 - model.pytorch.models_supervisor - INFO - Epoch [148/300] (55875) train_mae: 2.1012,  lr: 0.00001000, val:  2.2174, rmse: 4.1050, mape:0.055142,time:95.6s
+2024-12-10 17:25:29,465 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 17:25:29,465 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 17:25:39,529 - model.pytorch.models_supervisor - INFO - Epoch [149/300] (56250) train_mae: 2.1010,  lr: 0.00000100, val:  2.2178, rmse: 4.1054, mape:0.055178,time:93.4s
+2024-12-10 17:25:59,696 - model.pytorch.models_supervisor - INFO - Epoch [149/300] (56250) train_mae: 2.1010,   lr: 0.00000100, test_mae: 2.3390, rmse: 4.3363, mape:0.058004,93.4s
+2024-12-10 17:25:59,707 - model.pytorch.models_supervisor - INFO - Saved model at 149
+2024-12-10 17:25:59,708 - model.pytorch.models_supervisor - INFO - saving to data/log/itpgtn_gt/20241210_094352_itpgtn_gt_l_12_h_3_lr_0.001_bs_64/models//epo149.tar
+2024-12-10 17:27:21,991 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 17:27:21,991 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 17:27:30,991 - model.pytorch.models_supervisor - INFO - Epoch [150/300] (56625) train_mae: 2.1008,  lr: 0.00000100, val:  2.2179, rmse: 4.1059, mape:0.055216,time:91.3s
+2024-12-10 17:28:54,505 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 17:28:54,505 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 17:29:04,571 - model.pytorch.models_supervisor - INFO - Epoch [151/300] (57000) train_mae: 2.1004,  lr: 0.00000100, val:  2.2179, rmse: 4.1059, mape:0.055220,time:93.6s
+2024-12-10 17:30:27,960 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 17:30:27,960 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 17:30:38,023 - model.pytorch.models_supervisor - INFO - Epoch [152/300] (57375) train_mae: 2.1004,  lr: 0.00000100, val:  2.2179, rmse: 4.1061, mape:0.055228,time:93.5s
+2024-12-10 17:32:03,582 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 17:32:03,582 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 17:32:13,655 - model.pytorch.models_supervisor - INFO - Epoch [153/300] (57750) train_mae: 2.1003,  lr: 0.00000100, val:  2.2179, rmse: 4.1057, mape:0.055210,time:95.6s
+2024-12-10 17:33:36,925 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 17:33:36,925 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 17:33:47,019 - model.pytorch.models_supervisor - INFO - Epoch [154/300] (58125) train_mae: 2.1004,  lr: 0.00000100, val:  2.2180, rmse: 4.1063, mape:0.055233,time:93.4s
+2024-12-10 17:34:07,132 - model.pytorch.models_supervisor - INFO - Epoch [154/300] (58125) train_mae: 2.1004,   lr: 0.00000100, test_mae: 2.3389, rmse: 4.3373, mape:0.058058,93.4s
+2024-12-10 17:34:07,143 - model.pytorch.models_supervisor - INFO - Saved model at 154
+2024-12-10 17:34:07,143 - model.pytorch.models_supervisor - INFO - saving to data/log/itpgtn_gt/20241210_094352_itpgtn_gt_l_12_h_3_lr_0.001_bs_64/models//epo154.tar
+2024-12-10 17:35:31,186 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 17:35:31,186 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 17:35:40,634 - model.pytorch.models_supervisor - INFO - Epoch [155/300] (58500) train_mae: 2.1002,  lr: 0.00000100, val:  2.2178, rmse: 4.1057, mape:0.055217,time:93.5s
+2024-12-10 17:37:06,158 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 17:37:06,158 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 17:37:16,269 - model.pytorch.models_supervisor - INFO - Epoch [156/300] (58875) train_mae: 2.1002,  lr: 0.00000100, val:  2.2178, rmse: 4.1058, mape:0.055212,time:95.6s
+2024-12-10 17:38:39,487 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 17:38:39,487 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 17:38:49,577 - model.pytorch.models_supervisor - INFO - Epoch [157/300] (59250) train_mae: 2.1004,  lr: 0.00000100, val:  2.2179, rmse: 4.1058, mape:0.055222,time:93.3s
+2024-12-10 17:40:15,098 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 17:40:15,098 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 17:40:25,164 - model.pytorch.models_supervisor - INFO - Epoch [158/300] (59625) train_mae: 2.1003,  lr: 0.00000100, val:  2.2179, rmse: 4.1058, mape:0.055219,time:95.6s
+2024-12-10 17:41:44,117 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 17:41:44,117 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 17:41:54,184 - model.pytorch.models_supervisor - INFO - Epoch [159/300] (60000) train_mae: 2.1002,  lr: 0.00000100, val:  2.2179, rmse: 4.1058, mape:0.055212,time:89.0s
+2024-12-10 17:42:14,374 - model.pytorch.models_supervisor - INFO - Epoch [159/300] (60000) train_mae: 2.1002,   lr: 0.00000100, test_mae: 2.3389, rmse: 4.3369, mape:0.058037,89.0s
+2024-12-10 17:42:14,385 - model.pytorch.models_supervisor - INFO - Saved model at 159
+2024-12-10 17:42:14,385 - model.pytorch.models_supervisor - INFO - saving to data/log/itpgtn_gt/20241210_094352_itpgtn_gt_l_12_h_3_lr_0.001_bs_64/models//epo159.tar
+2024-12-10 17:43:39,887 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 17:43:39,887 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 17:43:49,151 - model.pytorch.models_supervisor - INFO - Epoch [160/300] (60375) train_mae: 2.1001,  lr: 0.00000100, val:  2.2181, rmse: 4.1063, mape:0.055238,time:94.8s
+2024-12-10 17:45:13,416 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 17:45:13,416 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 17:45:23,491 - model.pytorch.models_supervisor - INFO - Epoch [161/300] (60750) train_mae: 2.1003,  lr: 0.00000100, val:  2.2179, rmse: 4.1056, mape:0.055213,time:94.3s
+2024-12-10 17:46:46,853 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 17:46:46,854 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 17:46:56,980 - model.pytorch.models_supervisor - INFO - Epoch [162/300] (61125) train_mae: 2.1003,  lr: 0.00000100, val:  2.2179, rmse: 4.1061, mape:0.055231,time:93.5s
+2024-12-10 17:48:22,534 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 17:48:22,534 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 17:48:32,620 - model.pytorch.models_supervisor - INFO - Epoch [163/300] (61500) train_mae: 2.1003,  lr: 0.00000100, val:  2.2179, rmse: 4.1059, mape:0.055231,time:95.6s
+2024-12-10 17:49:55,988 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 17:49:55,988 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 17:50:06,044 - model.pytorch.models_supervisor - INFO - Epoch [164/300] (61875) train_mae: 2.1003,  lr: 0.00000100, val:  2.2178, rmse: 4.1055, mape:0.055209,time:93.4s
+2024-12-10 17:50:26,209 - model.pytorch.models_supervisor - INFO - Epoch [164/300] (61875) train_mae: 2.1003,   lr: 0.00000100, test_mae: 2.3388, rmse: 4.3364, mape:0.058034,93.4s
+2024-12-10 17:50:26,220 - model.pytorch.models_supervisor - INFO - Saved model at 164
+2024-12-10 17:50:26,221 - model.pytorch.models_supervisor - INFO - saving to data/log/itpgtn_gt/20241210_094352_itpgtn_gt_l_12_h_3_lr_0.001_bs_64/models//epo164.tar
+2024-12-10 17:51:49,538 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 17:51:49,538 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 17:51:59,634 - model.pytorch.models_supervisor - INFO - Epoch [165/300] (62250) train_mae: 2.1002,  lr: 0.00000100, val:  2.2178, rmse: 4.1055, mape:0.055221,time:93.4s
+2024-12-10 17:53:25,153 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 17:53:25,153 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 17:53:35,236 - model.pytorch.models_supervisor - INFO - Epoch [166/300] (62625) train_mae: 2.1003,  lr: 0.00000100, val:  2.2178, rmse: 4.1059, mape:0.055219,time:95.6s
+2024-12-10 17:54:54,706 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 17:54:54,706 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 17:55:04,243 - model.pytorch.models_supervisor - INFO - Epoch [167/300] (63000) train_mae: 2.1000,  lr: 0.00000100, val:  2.2179, rmse: 4.1058, mape:0.055208,time:89.0s
+2024-12-10 17:56:29,730 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 17:56:29,730 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 17:56:39,816 - model.pytorch.models_supervisor - INFO - Epoch [168/300] (63375) train_mae: 2.1001,  lr: 0.00000100, val:  2.2178, rmse: 4.1057, mape:0.055208,time:95.6s
+2024-12-10 17:58:03,129 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 17:58:03,129 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 17:58:13,209 - model.pytorch.models_supervisor - INFO - Epoch [169/300] (63750) train_mae: 2.1000,  lr: 0.00000100, val:  2.2180, rmse: 4.1063, mape:0.055231,time:93.4s
+2024-12-10 17:58:33,320 - model.pytorch.models_supervisor - INFO - Epoch [169/300] (63750) train_mae: 2.1000,   lr: 0.00000100, test_mae: 2.3391, rmse: 4.3374, mape:0.058057,93.4s
+2024-12-10 17:58:33,332 - model.pytorch.models_supervisor - INFO - Saved model at 169
+2024-12-10 17:58:33,332 - model.pytorch.models_supervisor - INFO - saving to data/log/itpgtn_gt/20241210_094352_itpgtn_gt_l_12_h_3_lr_0.001_bs_64/models//epo169.tar
+2024-12-10 17:59:58,379 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 17:59:58,379 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 18:00:07,377 - model.pytorch.models_supervisor - INFO - Epoch [170/300] (64125) train_mae: 2.1003,  lr: 0.00000100, val:  2.2180, rmse: 4.1064, mape:0.055232,time:94.0s
+2024-12-10 18:01:32,382 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 18:01:32,383 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 18:01:42,455 - model.pytorch.models_supervisor - INFO - Epoch [171/300] (64500) train_mae: 2.1001,  lr: 0.00000100, val:  2.2181, rmse: 4.1066, mape:0.055235,time:95.1s
+2024-12-10 18:03:05,754 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 18:03:05,754 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 18:03:15,830 - model.pytorch.models_supervisor - INFO - Epoch [172/300] (64875) train_mae: 2.1002,  lr: 0.00000100, val:  2.2181, rmse: 4.1066, mape:0.055235,time:93.4s
+2024-12-10 18:04:41,332 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 18:04:41,332 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 18:04:51,409 - model.pytorch.models_supervisor - INFO - Epoch [173/300] (65250) train_mae: 2.1002,  lr: 0.00000100, val:  2.2179, rmse: 4.1060, mape:0.055220,time:95.6s
+2024-12-10 18:06:14,692 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 18:06:14,693 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 18:06:24,767 - model.pytorch.models_supervisor - INFO - Epoch [174/300] (65625) train_mae: 2.1000,  lr: 0.00000100, val:  2.2180, rmse: 4.1059, mape:0.055220,time:93.4s
+2024-12-10 18:06:44,900 - model.pytorch.models_supervisor - INFO - Epoch [174/300] (65625) train_mae: 2.1000,   lr: 0.00000100, test_mae: 2.3389, rmse: 4.3368, mape:0.058045,93.4s
+2024-12-10 18:06:44,911 - model.pytorch.models_supervisor - INFO - Saved model at 174
+2024-12-10 18:06:44,911 - model.pytorch.models_supervisor - INFO - saving to data/log/itpgtn_gt/20241210_094352_itpgtn_gt_l_12_h_3_lr_0.001_bs_64/models//epo174.tar
+2024-12-10 18:08:07,508 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 18:08:07,509 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 18:08:16,502 - model.pytorch.models_supervisor - INFO - Epoch [175/300] (66000) train_mae: 2.1002,  lr: 0.00000100, val:  2.2180, rmse: 4.1061, mape:0.055226,time:91.6s
+2024-12-10 18:09:39,606 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 18:09:39,606 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 18:09:49,706 - model.pytorch.models_supervisor - INFO - Epoch [176/300] (66375) train_mae: 2.0998,  lr: 0.00000100, val:  2.2180, rmse: 4.1061, mape:0.055221,time:93.2s
+2024-12-10 18:11:12,938 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 18:11:12,938 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 18:11:23,000 - model.pytorch.models_supervisor - INFO - Epoch [177/300] (66750) train_mae: 2.1001,  lr: 0.00000100, val:  2.2182, rmse: 4.1066, mape:0.055240,time:93.3s
+2024-12-10 18:12:48,528 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 18:12:48,528 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 18:12:58,610 - model.pytorch.models_supervisor - INFO - Epoch [178/300] (67125) train_mae: 2.1000,  lr: 0.00000100, val:  2.2181, rmse: 4.1065, mape:0.055225,time:95.6s
+2024-12-10 18:14:21,953 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 18:14:21,953 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 18:14:32,058 - model.pytorch.models_supervisor - INFO - Epoch [179/300] (67500) train_mae: 2.0999,  lr: 0.00000100, val:  2.2181, rmse: 4.1065, mape:0.055224,time:93.4s
+2024-12-10 18:14:52,197 - model.pytorch.models_supervisor - INFO - Epoch [179/300] (67500) train_mae: 2.0999,   lr: 0.00000100, test_mae: 2.3391, rmse: 4.3374, mape:0.058047,93.4s
+2024-12-10 18:14:52,208 - model.pytorch.models_supervisor - INFO - Saved model at 179
+2024-12-10 18:14:52,208 - model.pytorch.models_supervisor - INFO - saving to data/log/itpgtn_gt/20241210_094352_itpgtn_gt_l_12_h_3_lr_0.001_bs_64/models//epo179.tar
+2024-12-10 18:16:16,558 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 18:16:16,558 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 18:16:25,741 - model.pytorch.models_supervisor - INFO - Epoch [180/300] (67875) train_mae: 2.1001,  lr: 0.00000100, val:  2.2180, rmse: 4.1062, mape:0.055222,time:93.5s
+2024-12-10 18:17:51,245 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 18:17:51,245 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 18:18:01,314 - model.pytorch.models_supervisor - INFO - Epoch [181/300] (68250) train_mae: 2.1001,  lr: 0.00000100, val:  2.2180, rmse: 4.1064, mape:0.055215,time:95.6s
+2024-12-10 18:19:24,676 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 18:19:24,676 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 18:19:34,747 - model.pytorch.models_supervisor - INFO - Epoch [182/300] (68625) train_mae: 2.1002,  lr: 0.00000100, val:  2.2180, rmse: 4.1060, mape:0.055214,time:93.4s
+2024-12-10 18:21:00,249 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 18:21:00,249 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 18:21:10,316 - model.pytorch.models_supervisor - INFO - Epoch [183/300] (69000) train_mae: 2.1000,  lr: 0.00000100, val:  2.2180, rmse: 4.1063, mape:0.055230,time:95.6s
+2024-12-10 18:22:29,186 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 18:22:29,186 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 18:22:39,271 - model.pytorch.models_supervisor - INFO - Epoch [184/300] (69375) train_mae: 2.0998,  lr: 0.00000100, val:  2.2180, rmse: 4.1062, mape:0.055214,time:89.0s
+2024-12-10 18:22:59,418 - model.pytorch.models_supervisor - INFO - Epoch [184/300] (69375) train_mae: 2.0998,   lr: 0.00000100, test_mae: 2.3391, rmse: 4.3372, mape:0.058039,89.0s
+2024-12-10 18:22:59,430 - model.pytorch.models_supervisor - INFO - Saved model at 184
+2024-12-10 18:22:59,430 - model.pytorch.models_supervisor - INFO - saving to data/log/itpgtn_gt/20241210_094352_itpgtn_gt_l_12_h_3_lr_0.001_bs_64/models//epo184.tar
+2024-12-10 18:24:24,931 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 18:24:24,931 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 18:24:34,475 - model.pytorch.models_supervisor - INFO - Epoch [185/300] (69750) train_mae: 2.0999,  lr: 0.00000100, val:  2.2180, rmse: 4.1064, mape:0.055217,time:95.0s
+2024-12-10 18:25:58,483 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 18:25:58,483 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 18:26:08,559 - model.pytorch.models_supervisor - INFO - Epoch [186/300] (70125) train_mae: 2.1003,  lr: 0.00000100, val:  2.2181, rmse: 4.1066, mape:0.055219,time:94.1s
+2024-12-10 18:27:30,983 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 18:27:30,983 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 18:27:41,077 - model.pytorch.models_supervisor - INFO - Epoch [187/300] (70500) train_mae: 2.1003,  lr: 0.00000100, val:  2.2180, rmse: 4.1062, mape:0.055224,time:92.5s
+2024-12-10 18:29:06,549 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 18:29:06,549 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 18:29:16,686 - model.pytorch.models_supervisor - INFO - Epoch [188/300] (70875) train_mae: 2.1000,  lr: 0.00000100, val:  2.2181, rmse: 4.1065, mape:0.055224,time:95.6s
+2024-12-10 18:30:40,006 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 18:30:40,006 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 18:30:50,083 - model.pytorch.models_supervisor - INFO - Epoch [189/300] (71250) train_mae: 2.0998,  lr: 0.00000100, val:  2.2180, rmse: 4.1059, mape:0.055216,time:93.4s
+2024-12-10 18:31:10,225 - model.pytorch.models_supervisor - INFO - Epoch [189/300] (71250) train_mae: 2.0998,   lr: 0.00000100, test_mae: 2.3390, rmse: 4.3371, mape:0.058048,93.4s
+2024-12-10 18:31:10,235 - model.pytorch.models_supervisor - INFO - Saved model at 189
+2024-12-10 18:31:10,235 - model.pytorch.models_supervisor - INFO - saving to data/log/itpgtn_gt/20241210_094352_itpgtn_gt_l_12_h_3_lr_0.001_bs_64/models//epo189.tar
+2024-12-10 18:32:34,051 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 18:32:34,051 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 18:32:43,699 - model.pytorch.models_supervisor - INFO - Epoch [190/300] (71625) train_mae: 2.1001,  lr: 0.00000100, val:  2.2180, rmse: 4.1061, mape:0.055230,time:93.5s
+2024-12-10 18:34:09,203 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 18:34:09,204 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 18:34:19,279 - model.pytorch.models_supervisor - INFO - Epoch [191/300] (72000) train_mae: 2.1000,  lr: 0.00000100, val:  2.2179, rmse: 4.1057, mape:0.055211,time:95.6s
+2024-12-10 18:35:39,388 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 18:35:39,388 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 18:35:48,442 - model.pytorch.models_supervisor - INFO - Epoch [192/300] (72375) train_mae: 2.0999,  lr: 0.00000100, val:  2.2180, rmse: 4.1062, mape:0.055219,time:89.2s
+2024-12-10 18:37:13,918 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 18:37:13,918 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 18:37:24,018 - model.pytorch.models_supervisor - INFO - Epoch [193/300] (72750) train_mae: 2.0998,  lr: 0.00000100, val:  2.2180, rmse: 4.1060, mape:0.055215,time:95.6s
+2024-12-10 18:38:47,342 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 18:38:47,342 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 18:38:57,466 - model.pytorch.models_supervisor - INFO - Epoch [194/300] (73125) train_mae: 2.0998,  lr: 0.00000100, val:  2.2180, rmse: 4.1063, mape:0.055212,time:93.4s
+2024-12-10 18:39:17,593 - model.pytorch.models_supervisor - INFO - Epoch [194/300] (73125) train_mae: 2.0998,   lr: 0.00000100, test_mae: 2.3390, rmse: 4.3373, mape:0.058045,93.4s
+2024-12-10 18:39:17,604 - model.pytorch.models_supervisor - INFO - Saved model at 194
+2024-12-10 18:39:17,604 - model.pytorch.models_supervisor - INFO - saving to data/log/itpgtn_gt/20241210_094352_itpgtn_gt_l_12_h_3_lr_0.001_bs_64/models//epo194.tar
+2024-12-10 18:40:43,057 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 18:40:43,057 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 18:40:52,119 - model.pytorch.models_supervisor - INFO - Epoch [195/300] (73500) train_mae: 2.0998,  lr: 0.00000100, val:  2.2180, rmse: 4.1063, mape:0.055214,time:94.5s
+2024-12-10 18:42:16,544 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 18:42:16,544 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 18:42:26,607 - model.pytorch.models_supervisor - INFO - Epoch [196/300] (73875) train_mae: 2.0999,  lr: 0.00000100, val:  2.2181, rmse: 4.1063, mape:0.055214,time:94.5s
+2024-12-10 18:43:49,934 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 18:43:49,934 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 18:44:00,002 - model.pytorch.models_supervisor - INFO - Epoch [197/300] (74250) train_mae: 2.0996,  lr: 0.00000100, val:  2.2181, rmse: 4.1063, mape:0.055215,time:93.4s
+2024-12-10 18:45:25,472 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 18:45:25,472 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 18:45:35,540 - model.pytorch.models_supervisor - INFO - Epoch [198/300] (74625) train_mae: 2.1001,  lr: 0.00000100, val:  2.2182, rmse: 4.1066, mape:0.055222,time:95.5s
+2024-12-10 18:46:58,876 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 18:46:58,876 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 18:47:08,934 - model.pytorch.models_supervisor - INFO - Epoch [199/300] (75000) train_mae: 2.0996,  lr: 0.00000010, val:  2.2181, rmse: 4.1063, mape:0.055210,time:93.4s
+2024-12-10 18:47:29,111 - model.pytorch.models_supervisor - INFO - Epoch [199/300] (75000) train_mae: 2.0996,   lr: 0.00000010, test_mae: 2.3391, rmse: 4.3374, mape:0.058040,93.4s
+2024-12-10 18:47:29,122 - model.pytorch.models_supervisor - INFO - Saved model at 199
+2024-12-10 18:47:29,122 - model.pytorch.models_supervisor - INFO - saving to data/log/itpgtn_gt/20241210_094352_itpgtn_gt_l_12_h_3_lr_0.001_bs_64/models//epo199.tar
+2024-12-10 18:48:52,137 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 18:48:52,137 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 18:49:01,129 - model.pytorch.models_supervisor - INFO - Epoch [200/300] (75375) train_mae: 2.0999,  lr: 0.00000010, val:  2.2181, rmse: 4.1063, mape:0.055209,time:92.0s
+2024-12-10 18:50:23,711 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 18:50:23,711 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 18:50:33,780 - model.pytorch.models_supervisor - INFO - Epoch [201/300] (75750) train_mae: 2.0999,  lr: 0.00000010, val:  2.2181, rmse: 4.1063, mape:0.055214,time:92.7s
+2024-12-10 18:51:57,369 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 18:51:57,369 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 18:52:07,155 - model.pytorch.models_supervisor - INFO - Epoch [202/300] (76125) train_mae: 2.1002,  lr: 0.00000010, val:  2.2181, rmse: 4.1063, mape:0.055212,time:93.4s
+2024-12-10 18:53:32,605 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 18:53:32,606 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 18:53:42,701 - model.pytorch.models_supervisor - INFO - Epoch [203/300] (76500) train_mae: 2.0997,  lr: 0.00000010, val:  2.2180, rmse: 4.1062, mape:0.055209,time:95.5s
+2024-12-10 18:55:05,905 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 18:55:05,905 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 18:55:15,976 - model.pytorch.models_supervisor - INFO - Epoch [204/300] (76875) train_mae: 2.0996,  lr: 0.00000010, val:  2.2180, rmse: 4.1062, mape:0.055208,time:93.3s
+2024-12-10 18:55:36,142 - model.pytorch.models_supervisor - INFO - Epoch [204/300] (76875) train_mae: 2.0996,   lr: 0.00000010, test_mae: 2.3391, rmse: 4.3373, mape:0.058041,93.3s
+2024-12-10 18:55:36,153 - model.pytorch.models_supervisor - INFO - Saved model at 204
+2024-12-10 18:55:36,154 - model.pytorch.models_supervisor - INFO - saving to data/log/itpgtn_gt/20241210_094352_itpgtn_gt_l_12_h_3_lr_0.001_bs_64/models//epo204.tar
+2024-12-10 18:57:00,945 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 18:57:00,945 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 18:57:09,931 - model.pytorch.models_supervisor - INFO - Epoch [205/300] (77250) train_mae: 2.1000,  lr: 0.00000010, val:  2.2180, rmse: 4.1061, mape:0.055212,time:93.8s
+2024-12-10 18:58:35,126 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 18:58:35,126 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 18:58:45,189 - model.pytorch.models_supervisor - INFO - Epoch [206/300] (77625) train_mae: 2.0996,  lr: 0.00000010, val:  2.2180, rmse: 4.1062, mape:0.055211,time:95.3s
+2024-12-10 19:00:08,497 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 19:00:08,497 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 19:00:18,564 - model.pytorch.models_supervisor - INFO - Epoch [207/300] (78000) train_mae: 2.0999,  lr: 0.00000010, val:  2.2180, rmse: 4.1061, mape:0.055212,time:93.4s
+2024-12-10 19:01:43,997 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 19:01:43,997 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 19:01:54,067 - model.pytorch.models_supervisor - INFO - Epoch [208/300] (78375) train_mae: 2.0994,  lr: 0.00000010, val:  2.2181, rmse: 4.1062, mape:0.055215,time:95.5s
+2024-12-10 19:03:12,877 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 19:03:12,877 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 19:03:22,981 - model.pytorch.models_supervisor - INFO - Epoch [209/300] (78750) train_mae: 2.0998,  lr: 0.00000010, val:  2.2181, rmse: 4.1063, mape:0.055217,time:88.9s
+2024-12-10 19:03:43,160 - model.pytorch.models_supervisor - INFO - Epoch [209/300] (78750) train_mae: 2.0998,   lr: 0.00000010, test_mae: 2.3391, rmse: 4.3374, mape:0.058051,88.9s
+2024-12-10 19:03:43,171 - model.pytorch.models_supervisor - INFO - Saved model at 209
+2024-12-10 19:03:43,171 - model.pytorch.models_supervisor - INFO - saving to data/log/itpgtn_gt/20241210_094352_itpgtn_gt_l_12_h_3_lr_0.001_bs_64/models//epo209.tar
+2024-12-10 19:05:08,594 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 19:05:08,595 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 19:05:18,569 - model.pytorch.models_supervisor - INFO - Epoch [210/300] (79125) train_mae: 2.0994,  lr: 0.00000010, val:  2.2181, rmse: 4.1062, mape:0.055216,time:95.4s
+2024-12-10 19:06:41,859 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 19:06:41,859 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 19:06:51,957 - model.pytorch.models_supervisor - INFO - Epoch [211/300] (79500) train_mae: 2.0996,  lr: 0.00000010, val:  2.2180, rmse: 4.1062, mape:0.055214,time:93.4s
+2024-12-10 19:08:15,141 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 19:08:15,141 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 19:08:25,211 - model.pytorch.models_supervisor - INFO - Epoch [212/300] (79875) train_mae: 2.0997,  lr: 0.00000010, val:  2.2181, rmse: 4.1062, mape:0.055215,time:93.3s
+2024-12-10 19:09:50,670 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 19:09:50,671 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 19:10:00,732 - model.pytorch.models_supervisor - INFO - Epoch [213/300] (80250) train_mae: 2.0996,  lr: 0.00000010, val:  2.2181, rmse: 4.1061, mape:0.055213,time:95.5s
+2024-12-10 19:11:23,947 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 19:11:23,947 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 19:11:34,005 - model.pytorch.models_supervisor - INFO - Epoch [214/300] (80625) train_mae: 2.0995,  lr: 0.00000010, val:  2.2181, rmse: 4.1062, mape:0.055215,time:93.3s
+2024-12-10 19:11:54,201 - model.pytorch.models_supervisor - INFO - Epoch [214/300] (80625) train_mae: 2.0995,   lr: 0.00000010, test_mae: 2.3391, rmse: 4.3373, mape:0.058047,93.3s
+2024-12-10 19:11:54,212 - model.pytorch.models_supervisor - INFO - Saved model at 214
+2024-12-10 19:11:54,212 - model.pytorch.models_supervisor - INFO - saving to data/log/itpgtn_gt/20241210_094352_itpgtn_gt_l_12_h_3_lr_0.001_bs_64/models//epo214.tar
+2024-12-10 19:13:18,273 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 19:13:18,273 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 19:13:27,637 - model.pytorch.models_supervisor - INFO - Epoch [215/300] (81000) train_mae: 2.0997,  lr: 0.00000010, val:  2.2180, rmse: 4.1061, mape:0.055211,time:93.4s
+2024-12-10 19:14:53,053 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 19:14:53,053 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 19:15:03,129 - model.pytorch.models_supervisor - INFO - Epoch [216/300] (81375) train_mae: 2.0996,  lr: 0.00000010, val:  2.2180, rmse: 4.1061, mape:0.055214,time:95.5s
+2024-12-10 19:16:23,416 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 19:16:23,416 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 19:16:32,409 - model.pytorch.models_supervisor - INFO - Epoch [217/300] (81750) train_mae: 2.0996,  lr: 0.00000010, val:  2.2180, rmse: 4.1061, mape:0.055212,time:89.3s
+2024-12-10 19:17:57,705 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 19:17:57,706 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 19:18:07,763 - model.pytorch.models_supervisor - INFO - Epoch [218/300] (82125) train_mae: 2.0997,  lr: 0.00000010, val:  2.2180, rmse: 4.1061, mape:0.055213,time:95.4s
+2024-12-10 19:19:30,938 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 19:19:30,938 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 19:19:41,036 - model.pytorch.models_supervisor - INFO - Epoch [219/300] (82500) train_mae: 2.0999,  lr: 0.00000010, val:  2.2180, rmse: 4.1061, mape:0.055211,time:93.3s
+2024-12-10 19:20:01,167 - model.pytorch.models_supervisor - INFO - Epoch [219/300] (82500) train_mae: 2.0999,   lr: 0.00000010, test_mae: 2.3390, rmse: 4.3373, mape:0.058044,93.3s
+2024-12-10 19:20:01,178 - model.pytorch.models_supervisor - INFO - Saved model at 219
+2024-12-10 19:20:01,178 - model.pytorch.models_supervisor - INFO - saving to data/log/itpgtn_gt/20241210_094352_itpgtn_gt_l_12_h_3_lr_0.001_bs_64/models//epo219.tar
+2024-12-10 19:21:26,619 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 19:21:26,619 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 19:21:35,991 - model.pytorch.models_supervisor - INFO - Epoch [220/300] (82875) train_mae: 2.0998,  lr: 0.00000010, val:  2.2180, rmse: 4.1061, mape:0.055211,time:94.8s
+2024-12-10 19:23:00,069 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 19:23:00,069 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 19:23:10,150 - model.pytorch.models_supervisor - INFO - Epoch [221/300] (83250) train_mae: 2.0997,  lr: 0.00000010, val:  2.2180, rmse: 4.1061, mape:0.055212,time:94.2s
+2024-12-10 19:24:33,360 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 19:24:33,360 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 19:24:43,444 - model.pytorch.models_supervisor - INFO - Epoch [222/300] (83625) train_mae: 2.0995,  lr: 0.00000010, val:  2.2180, rmse: 4.1061, mape:0.055212,time:93.3s
+2024-12-10 19:26:08,899 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 19:26:08,899 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 19:26:18,970 - model.pytorch.models_supervisor - INFO - Epoch [223/300] (84000) train_mae: 2.0997,  lr: 0.00000010, val:  2.2180, rmse: 4.1060, mape:0.055212,time:95.5s
+2024-12-10 19:27:42,000 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 19:27:42,000 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 19:27:52,083 - model.pytorch.models_supervisor - INFO - Epoch [224/300] (84375) train_mae: 2.0996,  lr: 0.00000010, val:  2.2180, rmse: 4.1061, mape:0.055214,time:93.1s
+2024-12-10 19:28:12,234 - model.pytorch.models_supervisor - INFO - Epoch [224/300] (84375) train_mae: 2.0996,   lr: 0.00000010, test_mae: 2.3390, rmse: 4.3372, mape:0.058047,93.1s
+2024-12-10 19:28:12,245 - model.pytorch.models_supervisor - INFO - Saved model at 224
+2024-12-10 19:28:12,245 - model.pytorch.models_supervisor - INFO - saving to data/log/itpgtn_gt/20241210_094352_itpgtn_gt_l_12_h_3_lr_0.001_bs_64/models//epo224.tar
+2024-12-10 19:29:35,750 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 19:29:35,750 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 19:29:44,705 - model.pytorch.models_supervisor - INFO - Epoch [225/300] (84750) train_mae: 2.0995,  lr: 0.00000010, val:  2.2180, rmse: 4.1061, mape:0.055214,time:92.5s
+2024-12-10 19:31:07,011 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 19:31:07,011 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 19:31:17,090 - model.pytorch.models_supervisor - INFO - Epoch [226/300] (85125) train_mae: 2.0997,  lr: 0.00000010, val:  2.2180, rmse: 4.1061, mape:0.055213,time:92.4s
+2024-12-10 19:32:41,088 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 19:32:41,088 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 19:32:50,578 - model.pytorch.models_supervisor - INFO - Epoch [227/300] (85500) train_mae: 2.0998,  lr: 0.00000010, val:  2.2180, rmse: 4.1061, mape:0.055214,time:93.5s
+2024-12-10 19:34:16,060 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 19:34:16,060 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 19:34:26,122 - model.pytorch.models_supervisor - INFO - Epoch [228/300] (85875) train_mae: 2.0996,  lr: 0.00000010, val:  2.2180, rmse: 4.1060, mape:0.055214,time:95.5s
+2024-12-10 19:35:49,437 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 19:35:49,437 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 19:35:59,493 - model.pytorch.models_supervisor - INFO - Epoch [229/300] (86250) train_mae: 2.1001,  lr: 0.00000010, val:  2.2180, rmse: 4.1060, mape:0.055214,time:93.4s
+2024-12-10 19:36:19,643 - model.pytorch.models_supervisor - INFO - Epoch [229/300] (86250) train_mae: 2.1001,   lr: 0.00000010, test_mae: 2.3390, rmse: 4.3372, mape:0.058046,93.4s
+2024-12-10 19:36:19,654 - model.pytorch.models_supervisor - INFO - Saved model at 229
+2024-12-10 19:36:19,654 - model.pytorch.models_supervisor - INFO - saving to data/log/itpgtn_gt/20241210_094352_itpgtn_gt_l_12_h_3_lr_0.001_bs_64/models//epo229.tar
+2024-12-10 19:37:44,888 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 19:37:44,888 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 19:37:53,880 - model.pytorch.models_supervisor - INFO - Epoch [230/300] (86625) train_mae: 2.0996,  lr: 0.00000010, val:  2.2180, rmse: 4.1061, mape:0.055218,time:94.2s
+2024-12-10 19:39:18,870 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 19:39:18,870 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 19:39:28,942 - model.pytorch.models_supervisor - INFO - Epoch [231/300] (87000) train_mae: 2.1000,  lr: 0.00000010, val:  2.2181, rmse: 4.1062, mape:0.055221,time:95.1s
+2024-12-10 19:40:52,242 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 19:40:52,242 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 19:41:02,332 - model.pytorch.models_supervisor - INFO - Epoch [232/300] (87375) train_mae: 2.0998,  lr: 0.00000010, val:  2.2180, rmse: 4.1061, mape:0.055221,time:93.4s
+2024-12-10 19:42:27,861 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 19:42:27,862 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 19:42:37,958 - model.pytorch.models_supervisor - INFO - Epoch [233/300] (87750) train_mae: 2.0997,  lr: 0.00000010, val:  2.2180, rmse: 4.1061, mape:0.055219,time:95.6s
+2024-12-10 19:43:56,865 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 19:43:56,865 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 19:44:06,981 - model.pytorch.models_supervisor - INFO - Epoch [234/300] (88125) train_mae: 2.0997,  lr: 0.00000010, val:  2.2180, rmse: 4.1062, mape:0.055221,time:89.0s
+2024-12-10 19:44:27,106 - model.pytorch.models_supervisor - INFO - Epoch [234/300] (88125) train_mae: 2.0997,   lr: 0.00000010, test_mae: 2.3390, rmse: 4.3373, mape:0.058053,89.0s
+2024-12-10 19:44:27,117 - model.pytorch.models_supervisor - INFO - Saved model at 234
+2024-12-10 19:44:27,117 - model.pytorch.models_supervisor - INFO - saving to data/log/itpgtn_gt/20241210_094352_itpgtn_gt_l_12_h_3_lr_0.001_bs_64/models//epo234.tar
+2024-12-10 19:45:52,591 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 19:45:52,591 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 19:46:02,670 - model.pytorch.models_supervisor - INFO - Epoch [235/300] (88500) train_mae: 2.0996,  lr: 0.00000010, val:  2.2180, rmse: 4.1061, mape:0.055219,time:95.6s
+2024-12-10 19:47:25,991 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 19:47:25,991 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 19:47:36,052 - model.pytorch.models_supervisor - INFO - Epoch [236/300] (88875) train_mae: 2.0998,  lr: 0.00000010, val:  2.2180, rmse: 4.1061, mape:0.055217,time:93.4s
+2024-12-10 19:48:59,261 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 19:48:59,261 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 19:49:09,365 - model.pytorch.models_supervisor - INFO - Epoch [237/300] (89250) train_mae: 2.0992,  lr: 0.00000010, val:  2.2181, rmse: 4.1062, mape:0.055221,time:93.3s
+2024-12-10 19:50:34,848 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 19:50:34,848 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 19:50:44,921 - model.pytorch.models_supervisor - INFO - Epoch [238/300] (89625) train_mae: 2.0995,  lr: 0.00000010, val:  2.2180, rmse: 4.1061, mape:0.055217,time:95.6s
+2024-12-10 19:52:08,231 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 19:52:08,231 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 19:52:18,305 - model.pytorch.models_supervisor - INFO - Epoch [239/300] (90000) train_mae: 2.0994,  lr: 0.00000010, val:  2.2180, rmse: 4.1060, mape:0.055213,time:93.4s
+2024-12-10 19:52:38,420 - model.pytorch.models_supervisor - INFO - Epoch [239/300] (90000) train_mae: 2.0994,   lr: 0.00000010, test_mae: 2.3390, rmse: 4.3372, mape:0.058045,93.4s
+2024-12-10 19:52:38,432 - model.pytorch.models_supervisor - INFO - Saved model at 239
+2024-12-10 19:52:38,432 - model.pytorch.models_supervisor - INFO - saving to data/log/itpgtn_gt/20241210_094352_itpgtn_gt_l_12_h_3_lr_0.001_bs_64/models//epo239.tar
+2024-12-10 19:54:02,828 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 19:54:02,828 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 19:54:11,961 - model.pytorch.models_supervisor - INFO - Epoch [240/300] (90375) train_mae: 2.0997,  lr: 0.00000010, val:  2.2180, rmse: 4.1060, mape:0.055213,time:93.5s
+2024-12-10 19:55:37,519 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 19:55:37,519 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 19:55:47,592 - model.pytorch.models_supervisor - INFO - Epoch [241/300] (90750) train_mae: 2.0998,  lr: 0.00000010, val:  2.2180, rmse: 4.1061, mape:0.055218,time:95.6s
+2024-12-10 19:57:08,148 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 19:57:08,148 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 19:57:17,150 - model.pytorch.models_supervisor - INFO - Epoch [242/300] (91125) train_mae: 2.0999,  lr: 0.00000010, val:  2.2180, rmse: 4.1061, mape:0.055217,time:89.6s
+2024-12-10 19:58:42,314 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 19:58:42,314 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 19:58:52,375 - model.pytorch.models_supervisor - INFO - Epoch [243/300] (91500) train_mae: 2.0996,  lr: 0.00000010, val:  2.2180, rmse: 4.1060, mape:0.055217,time:95.2s
+2024-12-10 20:00:15,737 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 20:00:15,737 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 20:00:25,799 - model.pytorch.models_supervisor - INFO - Epoch [244/300] (91875) train_mae: 2.0996,  lr: 0.00000010, val:  2.2180, rmse: 4.1060, mape:0.055217,time:93.4s
+2024-12-10 20:00:45,967 - model.pytorch.models_supervisor - INFO - Epoch [244/300] (91875) train_mae: 2.0996,   lr: 0.00000010, test_mae: 2.3390, rmse: 4.3371, mape:0.058050,93.4s
+2024-12-10 20:00:45,978 - model.pytorch.models_supervisor - INFO - Saved model at 244
+2024-12-10 20:00:45,978 - model.pytorch.models_supervisor - INFO - saving to data/log/itpgtn_gt/20241210_094352_itpgtn_gt_l_12_h_3_lr_0.001_bs_64/models//epo244.tar
+2024-12-10 20:02:11,485 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 20:02:11,485 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 20:02:21,013 - model.pytorch.models_supervisor - INFO - Epoch [245/300] (92250) train_mae: 2.0996,  lr: 0.00000010, val:  2.2180, rmse: 4.1060, mape:0.055216,time:95.0s
+2024-12-10 20:03:45,000 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 20:03:45,000 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 20:03:55,071 - model.pytorch.models_supervisor - INFO - Epoch [246/300] (92625) train_mae: 2.0993,  lr: 0.00000010, val:  2.2180, rmse: 4.1060, mape:0.055216,time:94.1s
+2024-12-10 20:05:18,353 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 20:05:18,353 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 20:05:28,418 - model.pytorch.models_supervisor - INFO - Epoch [247/300] (93000) train_mae: 2.0995,  lr: 0.00000010, val:  2.2180, rmse: 4.1061, mape:0.055214,time:93.3s
+2024-12-10 20:06:53,898 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 20:06:53,898 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 20:07:03,962 - model.pytorch.models_supervisor - INFO - Epoch [248/300] (93375) train_mae: 2.0997,  lr: 0.00000010, val:  2.2180, rmse: 4.1061, mape:0.055215,time:95.5s
+2024-12-10 20:08:27,291 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 20:08:27,291 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 20:08:37,354 - model.pytorch.models_supervisor - INFO - Epoch [249/300] (93750) train_mae: 2.0996,  lr: 0.00000001, val:  2.2180, rmse: 4.1060, mape:0.055215,time:93.4s
+2024-12-10 20:08:57,481 - model.pytorch.models_supervisor - INFO - Epoch [249/300] (93750) train_mae: 2.0996,   lr: 0.00000001, test_mae: 2.3390, rmse: 4.3371, mape:0.058047,93.4s
+2024-12-10 20:08:57,493 - model.pytorch.models_supervisor - INFO - Saved model at 249
+2024-12-10 20:08:57,493 - model.pytorch.models_supervisor - INFO - saving to data/log/itpgtn_gt/20241210_094352_itpgtn_gt_l_12_h_3_lr_0.001_bs_64/models//epo249.tar
+2024-12-10 20:10:21,032 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 20:10:21,032 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 20:10:29,992 - model.pytorch.models_supervisor - INFO - Epoch [250/300] (94125) train_mae: 2.0994,  lr: 0.00000001, val:  2.2180, rmse: 4.1060, mape:0.055215,time:92.5s
+2024-12-10 20:11:52,078 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 20:11:52,078 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 20:12:02,143 - model.pytorch.models_supervisor - INFO - Epoch [251/300] (94500) train_mae: 2.0997,  lr: 0.00000001, val:  2.2180, rmse: 4.1060, mape:0.055215,time:92.1s
+2024-12-10 20:13:26,290 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 20:13:26,290 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 20:13:35,636 - model.pytorch.models_supervisor - INFO - Epoch [252/300] (94875) train_mae: 2.1002,  lr: 0.00000001, val:  2.2180, rmse: 4.1060, mape:0.055215,time:93.5s
+2024-12-10 20:15:01,121 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 20:15:01,121 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 20:15:11,182 - model.pytorch.models_supervisor - INFO - Epoch [253/300] (95250) train_mae: 2.0998,  lr: 0.00000001, val:  2.2180, rmse: 4.1060, mape:0.055214,time:95.5s
+2024-12-10 20:16:34,474 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 20:16:34,474 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 20:16:44,534 - model.pytorch.models_supervisor - INFO - Epoch [254/300] (95625) train_mae: 2.0996,  lr: 0.00000001, val:  2.2180, rmse: 4.1060, mape:0.055214,time:93.4s
+2024-12-10 20:17:04,692 - model.pytorch.models_supervisor - INFO - Epoch [254/300] (95625) train_mae: 2.0996,   lr: 0.00000001, test_mae: 2.3390, rmse: 4.3371, mape:0.058047,93.4s
+2024-12-10 20:17:04,704 - model.pytorch.models_supervisor - INFO - Saved model at 254
+2024-12-10 20:17:04,704 - model.pytorch.models_supervisor - INFO - saving to data/log/itpgtn_gt/20241210_094352_itpgtn_gt_l_12_h_3_lr_0.001_bs_64/models//epo254.tar
+2024-12-10 20:18:30,074 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 20:18:30,074 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 20:18:39,058 - model.pytorch.models_supervisor - INFO - Epoch [255/300] (96000) train_mae: 2.0998,  lr: 0.00000001, val:  2.2180, rmse: 4.1060, mape:0.055215,time:94.4s
+2024-12-10 20:20:03,865 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 20:20:03,865 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 20:20:13,927 - model.pytorch.models_supervisor - INFO - Epoch [256/300] (96375) train_mae: 2.1000,  lr: 0.00000001, val:  2.2180, rmse: 4.1060, mape:0.055215,time:94.9s
+2024-12-10 20:21:37,207 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 20:21:37,207 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 20:21:47,263 - model.pytorch.models_supervisor - INFO - Epoch [257/300] (96750) train_mae: 2.0996,  lr: 0.00000001, val:  2.2180, rmse: 4.1060, mape:0.055215,time:93.3s
+2024-12-10 20:23:12,772 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 20:23:12,772 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 20:23:22,833 - model.pytorch.models_supervisor - INFO - Epoch [258/300] (97125) train_mae: 2.0996,  lr: 0.00000001, val:  2.2180, rmse: 4.1060, mape:0.055215,time:95.6s
+2024-12-10 20:24:41,739 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 20:24:41,739 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 20:24:51,799 - model.pytorch.models_supervisor - INFO - Epoch [259/300] (97500) train_mae: 2.0995,  lr: 0.00000001, val:  2.2180, rmse: 4.1060, mape:0.055215,time:89.0s
+2024-12-10 20:25:11,928 - model.pytorch.models_supervisor - INFO - Epoch [259/300] (97500) train_mae: 2.0995,   lr: 0.00000001, test_mae: 2.3390, rmse: 4.3371, mape:0.058047,89.0s
+2024-12-10 20:25:11,939 - model.pytorch.models_supervisor - INFO - Saved model at 259
+2024-12-10 20:25:11,939 - model.pytorch.models_supervisor - INFO - saving to data/log/itpgtn_gt/20241210_094352_itpgtn_gt_l_12_h_3_lr_0.001_bs_64/models//epo259.tar
+2024-12-10 20:26:37,408 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 20:26:37,408 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 20:26:47,467 - model.pytorch.models_supervisor - INFO - Epoch [260/300] (97875) train_mae: 2.0996,  lr: 0.00000001, val:  2.2180, rmse: 4.1060, mape:0.055215,time:95.5s
+2024-12-10 20:28:10,759 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 20:28:10,759 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 20:28:20,821 - model.pytorch.models_supervisor - INFO - Epoch [261/300] (98250) train_mae: 2.0996,  lr: 0.00000001, val:  2.2180, rmse: 4.1060, mape:0.055215,time:93.4s
+2024-12-10 20:29:44,202 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 20:29:44,202 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 20:29:54,200 - model.pytorch.models_supervisor - INFO - Epoch [262/300] (98625) train_mae: 2.0999,  lr: 0.00000001, val:  2.2180, rmse: 4.1060, mape:0.055215,time:93.4s
+2024-12-10 20:31:19,782 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 20:31:19,782 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 20:31:29,839 - model.pytorch.models_supervisor - INFO - Epoch [263/300] (99000) train_mae: 2.0996,  lr: 0.00000001, val:  2.2180, rmse: 4.1060, mape:0.055215,time:95.6s
+2024-12-10 20:32:53,152 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 20:32:53,153 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 20:33:03,213 - model.pytorch.models_supervisor - INFO - Epoch [264/300] (99375) train_mae: 2.0999,  lr: 0.00000001, val:  2.2180, rmse: 4.1060, mape:0.055215,time:93.4s
+2024-12-10 20:33:23,329 - model.pytorch.models_supervisor - INFO - Epoch [264/300] (99375) train_mae: 2.0999,   lr: 0.00000001, test_mae: 2.3390, rmse: 4.3371, mape:0.058047,93.4s
+2024-12-10 20:33:23,340 - model.pytorch.models_supervisor - INFO - Saved model at 264
+2024-12-10 20:33:23,340 - model.pytorch.models_supervisor - INFO - saving to data/log/itpgtn_gt/20241210_094352_itpgtn_gt_l_12_h_3_lr_0.001_bs_64/models//epo264.tar
+2024-12-10 20:34:47,965 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 20:34:47,965 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 20:34:56,970 - model.pytorch.models_supervisor - INFO - Epoch [265/300] (99750) train_mae: 2.0998,  lr: 0.00000001, val:  2.2180, rmse: 4.1060, mape:0.055215,time:93.6s
+2024-12-10 20:36:22,553 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 20:36:22,553 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 20:36:32,631 - model.pytorch.models_supervisor - INFO - Epoch [266/300] (100125) train_mae: 2.0997,  lr: 0.00000001, val:  2.2180, rmse: 4.1060, mape:0.055215,time:95.7s
+2024-12-10 20:37:53,521 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 20:37:53,521 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 20:38:02,512 - model.pytorch.models_supervisor - INFO - Epoch [267/300] (100500) train_mae: 2.0995,  lr: 0.00000001, val:  2.2180, rmse: 4.1060, mape:0.055215,time:89.9s
+2024-12-10 20:39:27,409 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 20:39:27,409 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 20:39:37,470 - model.pytorch.models_supervisor - INFO - Epoch [268/300] (100875) train_mae: 2.0995,  lr: 0.00000001, val:  2.2180, rmse: 4.1060, mape:0.055215,time:95.0s
+2024-12-10 20:41:00,818 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 20:41:00,818 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 20:41:10,881 - model.pytorch.models_supervisor - INFO - Epoch [269/300] (101250) train_mae: 2.0997,  lr: 0.00000001, val:  2.2180, rmse: 4.1060, mape:0.055215,time:93.4s
+2024-12-10 20:41:31,012 - model.pytorch.models_supervisor - INFO - Epoch [269/300] (101250) train_mae: 2.0997,   lr: 0.00000001, test_mae: 2.3390, rmse: 4.3371, mape:0.058048,93.4s
+2024-12-10 20:41:31,077 - model.pytorch.models_supervisor - INFO - Saved model at 269
+2024-12-10 20:41:31,078 - model.pytorch.models_supervisor - INFO - saving to data/log/itpgtn_gt/20241210_094352_itpgtn_gt_l_12_h_3_lr_0.001_bs_64/models//epo269.tar
+2024-12-10 20:42:56,552 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 20:42:56,552 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 20:43:06,226 - model.pytorch.models_supervisor - INFO - Epoch [270/300] (101625) train_mae: 2.0999,  lr: 0.00000001, val:  2.2180, rmse: 4.1060, mape:0.055215,time:95.1s
+2024-12-10 20:44:30,076 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 20:44:30,077 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 20:44:40,138 - model.pytorch.models_supervisor - INFO - Epoch [271/300] (102000) train_mae: 2.0996,  lr: 0.00000001, val:  2.2180, rmse: 4.1060, mape:0.055215,time:93.9s
+2024-12-10 20:46:03,514 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 20:46:03,514 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 20:46:13,577 - model.pytorch.models_supervisor - INFO - Epoch [272/300] (102375) train_mae: 2.0997,  lr: 0.00000001, val:  2.2180, rmse: 4.1060, mape:0.055215,time:93.4s
+2024-12-10 20:47:39,144 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 20:47:39,144 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 20:47:49,216 - model.pytorch.models_supervisor - INFO - Epoch [273/300] (102750) train_mae: 2.0999,  lr: 0.00000001, val:  2.2180, rmse: 4.1060, mape:0.055215,time:95.6s
+2024-12-10 20:49:12,503 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 20:49:12,503 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 20:49:22,568 - model.pytorch.models_supervisor - INFO - Epoch [274/300] (103125) train_mae: 2.0996,  lr: 0.00000001, val:  2.2180, rmse: 4.1060, mape:0.055215,time:93.4s
+2024-12-10 20:49:42,712 - model.pytorch.models_supervisor - INFO - Epoch [274/300] (103125) train_mae: 2.0996,   lr: 0.00000001, test_mae: 2.3390, rmse: 4.3371, mape:0.058047,93.4s
+2024-12-10 20:49:42,723 - model.pytorch.models_supervisor - INFO - Saved model at 274
+2024-12-10 20:49:42,723 - model.pytorch.models_supervisor - INFO - saving to data/log/itpgtn_gt/20241210_094352_itpgtn_gt_l_12_h_3_lr_0.001_bs_64/models//epo274.tar
+2024-12-10 20:51:06,412 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 20:51:06,412 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 20:51:15,387 - model.pytorch.models_supervisor - INFO - Epoch [275/300] (103500) train_mae: 2.0996,  lr: 0.00000001, val:  2.2180, rmse: 4.1060, mape:0.055215,time:92.7s
+2024-12-10 20:52:37,411 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 20:52:37,411 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 20:52:47,472 - model.pytorch.models_supervisor - INFO - Epoch [276/300] (103875) train_mae: 2.0997,  lr: 0.00000001, val:  2.2180, rmse: 4.1060, mape:0.055215,time:92.1s
+2024-12-10 20:54:11,739 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 20:54:11,739 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 20:54:20,962 - model.pytorch.models_supervisor - INFO - Epoch [277/300] (104250) train_mae: 2.0998,  lr: 0.00000001, val:  2.2180, rmse: 4.1060, mape:0.055215,time:93.5s
+2024-12-10 20:55:46,542 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 20:55:46,542 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 20:55:56,614 - model.pytorch.models_supervisor - INFO - Epoch [278/300] (104625) train_mae: 2.0997,  lr: 0.00000001, val:  2.2180, rmse: 4.1060, mape:0.055215,time:95.7s
+2024-12-10 20:57:19,958 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 20:57:19,958 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 20:57:30,020 - model.pytorch.models_supervisor - INFO - Epoch [279/300] (105000) train_mae: 2.0997,  lr: 0.00000001, val:  2.2180, rmse: 4.1060, mape:0.055215,time:93.4s
+2024-12-10 20:57:50,134 - model.pytorch.models_supervisor - INFO - Epoch [279/300] (105000) train_mae: 2.0997,   lr: 0.00000001, test_mae: 2.3390, rmse: 4.3371, mape:0.058047,93.4s
+2024-12-10 20:57:50,145 - model.pytorch.models_supervisor - INFO - Saved model at 279
+2024-12-10 20:57:50,145 - model.pytorch.models_supervisor - INFO - saving to data/log/itpgtn_gt/20241210_094352_itpgtn_gt_l_12_h_3_lr_0.001_bs_64/models//epo279.tar
+2024-12-10 20:59:15,552 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 20:59:15,552 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 20:59:24,553 - model.pytorch.models_supervisor - INFO - Epoch [280/300] (105375) train_mae: 2.0997,  lr: 0.00000001, val:  2.2180, rmse: 4.1060, mape:0.055215,time:94.4s
+2024-12-10 21:00:49,083 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 21:00:49,083 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 21:00:59,176 - model.pytorch.models_supervisor - INFO - Epoch [281/300] (105750) train_mae: 2.0996,  lr: 0.00000001, val:  2.2180, rmse: 4.1060, mape:0.055215,time:94.6s
+2024-12-10 21:02:22,419 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 21:02:22,419 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 21:02:32,480 - model.pytorch.models_supervisor - INFO - Epoch [282/300] (106125) train_mae: 2.0997,  lr: 0.00000001, val:  2.2180, rmse: 4.1060, mape:0.055214,time:93.3s
+2024-12-10 21:03:57,943 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 21:03:57,943 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 21:04:08,001 - model.pytorch.models_supervisor - INFO - Epoch [283/300] (106500) train_mae: 2.0996,  lr: 0.00000001, val:  2.2180, rmse: 4.1060, mape:0.055214,time:95.5s
+2024-12-10 21:05:26,968 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 21:05:26,968 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 21:05:37,018 - model.pytorch.models_supervisor - INFO - Epoch [284/300] (106875) train_mae: 2.0997,  lr: 0.00000001, val:  2.2180, rmse: 4.1060, mape:0.055214,time:89.0s
+2024-12-10 21:05:57,156 - model.pytorch.models_supervisor - INFO - Epoch [284/300] (106875) train_mae: 2.0997,   lr: 0.00000001, test_mae: 2.3390, rmse: 4.3371, mape:0.058047,89.0s
+2024-12-10 21:05:57,167 - model.pytorch.models_supervisor - INFO - Saved model at 284
+2024-12-10 21:05:57,167 - model.pytorch.models_supervisor - INFO - saving to data/log/itpgtn_gt/20241210_094352_itpgtn_gt_l_12_h_3_lr_0.001_bs_64/models//epo284.tar
+2024-12-10 21:07:22,605 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 21:07:22,605 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 21:07:32,670 - model.pytorch.models_supervisor - INFO - Epoch [285/300] (107250) train_mae: 2.0996,  lr: 0.00000001, val:  2.2180, rmse: 4.1060, mape:0.055214,time:95.5s
+2024-12-10 21:08:55,853 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 21:08:55,854 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 21:09:05,944 - model.pytorch.models_supervisor - INFO - Epoch [286/300] (107625) train_mae: 2.0996,  lr: 0.00000001, val:  2.2180, rmse: 4.1060, mape:0.055214,time:93.3s
+2024-12-10 21:10:29,463 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 21:10:29,463 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 21:10:39,316 - model.pytorch.models_supervisor - INFO - Epoch [287/300] (108000) train_mae: 2.0997,  lr: 0.00000001, val:  2.2180, rmse: 4.1060, mape:0.055214,time:93.4s
+2024-12-10 21:12:04,725 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 21:12:04,725 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 21:12:14,829 - model.pytorch.models_supervisor - INFO - Epoch [288/300] (108375) train_mae: 2.0999,  lr: 0.00000001, val:  2.2180, rmse: 4.1060, mape:0.055214,time:95.5s
+2024-12-10 21:13:38,050 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 21:13:38,050 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 21:13:48,112 - model.pytorch.models_supervisor - INFO - Epoch [289/300] (108750) train_mae: 2.0993,  lr: 0.00000001, val:  2.2180, rmse: 4.1060, mape:0.055214,time:93.3s
+2024-12-10 21:14:08,271 - model.pytorch.models_supervisor - INFO - Epoch [289/300] (108750) train_mae: 2.0993,   lr: 0.00000001, test_mae: 2.3390, rmse: 4.3371, mape:0.058046,93.3s
+2024-12-10 21:14:08,283 - model.pytorch.models_supervisor - INFO - Saved model at 289
+2024-12-10 21:14:08,283 - model.pytorch.models_supervisor - INFO - saving to data/log/itpgtn_gt/20241210_094352_itpgtn_gt_l_12_h_3_lr_0.001_bs_64/models//epo289.tar
+2024-12-10 21:15:32,991 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 21:15:32,991 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 21:15:41,992 - model.pytorch.models_supervisor - INFO - Epoch [290/300] (109125) train_mae: 2.0998,  lr: 0.00000001, val:  2.2180, rmse: 4.1060, mape:0.055214,time:93.7s
+2024-12-10 21:17:07,304 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 21:17:07,304 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 21:17:17,405 - model.pytorch.models_supervisor - INFO - Epoch [291/300] (109500) train_mae: 2.0997,  lr: 0.00000001, val:  2.2180, rmse: 4.1060, mape:0.055215,time:95.4s
+2024-12-10 21:18:38,467 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 21:18:38,467 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 21:18:47,462 - model.pytorch.models_supervisor - INFO - Epoch [292/300] (109875) train_mae: 2.0996,  lr: 0.00000001, val:  2.2180, rmse: 4.1060, mape:0.055214,time:90.1s
+2024-12-10 21:20:12,163 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 21:20:12,164 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 21:20:22,223 - model.pytorch.models_supervisor - INFO - Epoch [293/300] (110250) train_mae: 2.0998,  lr: 0.00000001, val:  2.2180, rmse: 4.1060, mape:0.055214,time:94.8s
+2024-12-10 21:21:45,542 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 21:21:45,542 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 21:21:55,603 - model.pytorch.models_supervisor - INFO - Epoch [294/300] (110625) train_mae: 2.0994,  lr: 0.00000001, val:  2.2180, rmse: 4.1060, mape:0.055214,time:93.4s
+2024-12-10 21:22:15,757 - model.pytorch.models_supervisor - INFO - Epoch [294/300] (110625) train_mae: 2.0994,   lr: 0.00000001, test_mae: 2.3390, rmse: 4.3371, mape:0.058047,93.4s
+2024-12-10 21:22:15,768 - model.pytorch.models_supervisor - INFO - Saved model at 294
+2024-12-10 21:22:15,768 - model.pytorch.models_supervisor - INFO - saving to data/log/itpgtn_gt/20241210_094352_itpgtn_gt_l_12_h_3_lr_0.001_bs_64/models//epo294.tar
+2024-12-10 21:23:41,245 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 21:23:41,245 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 21:23:51,108 - model.pytorch.models_supervisor - INFO - Epoch [295/300] (111000) train_mae: 2.0996,  lr: 0.00000001, val:  2.2180, rmse: 4.1060, mape:0.055214,time:95.3s
+2024-12-10 21:25:14,679 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 21:25:14,679 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 21:25:24,757 - model.pytorch.models_supervisor - INFO - Epoch [296/300] (111375) train_mae: 2.0995,  lr: 0.00000001, val:  2.2180, rmse: 4.1060, mape:0.055214,time:93.6s
+2024-12-10 21:26:48,024 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 21:26:48,024 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 21:26:58,085 - model.pytorch.models_supervisor - INFO - Epoch [297/300] (111750) train_mae: 2.0997,  lr: 0.00000001, val:  2.2180, rmse: 4.1060, mape:0.055215,time:93.3s
+2024-12-10 21:28:23,562 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 21:28:23,562 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 21:28:33,641 - model.pytorch.models_supervisor - INFO - Epoch [298/300] (112125) train_mae: 2.0997,  lr: 0.00000001, val:  2.2180, rmse: 4.1060, mape:0.055214,time:95.6s
+2024-12-10 21:29:56,937 - model.pytorch.models_supervisor - INFO - epoch complete
+2024-12-10 21:29:56,937 - model.pytorch.models_supervisor - INFO - evaluating now!
+2024-12-10 21:30:06,995 - model.pytorch.models_supervisor - INFO - Epoch [299/300] (112500) train_mae: 2.0997,  lr: 0.00000001, val:  2.2180, rmse: 4.1060, mape:0.055214,time:93.4s
+2024-12-10 21:30:27,156 - model.pytorch.models_supervisor - INFO - Epoch [299/300] (112500) train_mae: 2.0997,   lr: 0.00000001, test_mae: 2.3390, rmse: 4.3371, mape:0.058047,93.4s
+2024-12-10 21:30:27,167 - model.pytorch.models_supervisor - INFO - Saved model at 299
+2024-12-10 21:30:27,167 - model.pytorch.models_supervisor - INFO - saving to data/log/itpgtn_gt/20241210_094352_itpgtn_gt_l_12_h_3_lr_0.001_bs_64/models//epo299.tar
+2024-12-10 21:30:27,179 - model.pytorch.models_supervisor - INFO - Saved model at 300
