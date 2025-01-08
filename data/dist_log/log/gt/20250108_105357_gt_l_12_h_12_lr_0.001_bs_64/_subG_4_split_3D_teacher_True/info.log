@@ -1,0 +1,94 @@
+2025-01-08 10:53:57,760 - model.pytorch.dist_para - INFO - Log directory: data/dist_log/log/gt/20250108_105357_gt_l_12_h_12_lr_0.001_bs_64/_subG_4_split_3D_teacher_True
+2025-01-08 10:54:02,554 - model.pytorch.dist_para - INFO - Student_Model parameters: model_dim: 32, g_dim: 16, dec_dim: 16,num_encoder: 2, num_g: 2,  sub_graph: 1, sub_node: 52
+2025-01-08 10:54:02,555 - model.pytorch.dist_para - INFO - Total trainable parameters: 157361
+2025-01-08 10:54:02,563 - model.pytorch.dist_para - INFO - Student_Model parameters: model_dim: 32, g_dim: 16, dec_dim: 16,num_encoder: 2, num_g: 2,  sub_graph: 1, sub_node: 52
+2025-01-08 10:54:02,563 - model.pytorch.dist_para - INFO - Total trainable parameters: 157361
+2025-01-08 10:54:02,571 - model.pytorch.dist_para - INFO - Student_Model parameters: model_dim: 32, g_dim: 16, dec_dim: 16,num_encoder: 2, num_g: 2,  sub_graph: 1, sub_node: 52
+2025-01-08 10:54:02,571 - model.pytorch.dist_para - INFO - Total trainable parameters: 157361
+2025-01-08 10:54:02,578 - model.pytorch.dist_para - INFO - Student_Model parameters: model_dim: 32, g_dim: 16, dec_dim: 16,num_encoder: 2, num_g: 2,  sub_graph: 1, sub_node: 52
+2025-01-08 10:54:02,579 - model.pytorch.dist_para - INFO - Total trainable parameters: 157361
+2025-01-08 10:54:02,586 - model.pytorch.dist_para - INFO - Total Student_Comb_Model parameters: 262882
+2025-01-08 10:54:02,849 - model.pytorch.dist_para - INFO - student_model FLOPs: 616.600M, Params: 65.044K
+2025-01-08 10:54:02,852 - model.pytorch.dist_para - INFO - student_comb_model FLOPs: 1.474G, Params: 262.016K
+2025-01-08 10:54:02,868 - model.pytorch.dist_para - INFO - Total trainable parameters 337156
+2025-01-08 10:54:02,868 - model.pytorch.dist_para - INFO - Model parameters: model_dim: 32, g_dim: 8, dec_dim: 32,num_encoder: 3, num_g: 3
+2025-01-08 10:54:02,872 - model.pytorch.dist_para - INFO - config_filename:data/dist_config/dist_gt_metr.yaml
+2025-01-08 10:54:02,872 - model.pytorch.dist_para - INFO - device:cuda:0
+2025-01-08 10:54:02,872 - model.pytorch.dist_para - INFO - Model created
+2025-01-08 10:54:03,117 - model.pytorch.dist_para - INFO - Loaded model from data/dist_model/metr-12/20241202_161150_gt_l_12_h_12_lr_0.001_bs_64/models/epo19.tar at epoch 0
+2025-01-08 10:54:03,118 - model.pytorch.dist_para - INFO - Start training ...
+2025-01-08 10:54:03,118 - model.pytorch.dist_para - INFO - Number of batches: 375
+2025-01-08 10:54:43,088 - model.pytorch.dist_para - INFO - Epoch [0/200] - Train Loss1 (Student): 8.5479, Train Loss2 (Student Comb): 6.0741
+2025-01-08 10:54:45,194 - model.pytorch.dist_para - INFO - Epoch [0/200] - Validation Loss1 (Student): 4.1821, Validation Loss2 (Student Comb): 3.4297, RMSE1: 7.8198, MAPE1: 0.111072, RMSE2: 6.2794, MAPE2: 0.106201, Time: 42.1s
+2025-01-08 10:54:45,195 - model.pytorch.dist_para - INFO - Val loss improved from inf to 4.1821, saving model...
+2025-01-08 10:55:25,096 - model.pytorch.dist_para - INFO - Epoch [1/200] - Train Loss1 (Student): 5.9771, Train Loss2 (Student Comb): 3.9763
+2025-01-08 10:55:27,220 - model.pytorch.dist_para - INFO - Epoch [1/200] - Validation Loss1 (Student): 4.1102, Validation Loss2 (Student Comb): 3.1935, RMSE1: 7.9281, MAPE1: 0.107622, RMSE2: 5.9343, MAPE2: 0.096351, Time: 42.0s
+2025-01-08 10:55:27,220 - model.pytorch.dist_para - INFO - Val loss improved from 4.1821 to 4.1102, saving model...
+2025-01-08 10:56:07,215 - model.pytorch.dist_para - INFO - Epoch [2/200] - Train Loss1 (Student): 5.7886, Train Loss2 (Student Comb): 3.7004
+2025-01-08 10:56:09,329 - model.pytorch.dist_para - INFO - Epoch [2/200] - Validation Loss1 (Student): 4.0838, Validation Loss2 (Student Comb): 3.1136, RMSE1: 7.9185, MAPE1: 0.106999, RMSE2: 5.8588, MAPE2: 0.095761, Time: 42.1s
+2025-01-08 10:56:09,329 - model.pytorch.dist_para - INFO - Val loss improved from 4.1102 to 4.0838, saving model...
+2025-01-08 10:56:49,474 - model.pytorch.dist_para - INFO - Epoch [3/200] - Train Loss1 (Student): 5.6380, Train Loss2 (Student Comb): 3.5501
+2025-01-08 10:56:51,617 - model.pytorch.dist_para - INFO - Epoch [3/200] - Validation Loss1 (Student): 4.0078, Validation Loss2 (Student Comb): 3.0455, RMSE1: 7.7938, MAPE1: 0.105399, RMSE2: 5.7790, MAPE2: 0.092517, Time: 42.3s
+2025-01-08 10:56:51,618 - model.pytorch.dist_para - INFO - Val loss improved from 4.0838 to 4.0078, saving model...
+2025-01-08 10:57:31,670 - model.pytorch.dist_para - INFO - Epoch [4/200] - Train Loss1 (Student): 5.4132, Train Loss2 (Student Comb): 3.4563
+2025-01-08 10:57:33,794 - model.pytorch.dist_para - INFO - Epoch [4/200] - Validation Loss1 (Student): 3.9544, Validation Loss2 (Student Comb): 2.9829, RMSE1: 7.7032, MAPE1: 0.104171, RMSE2: 5.6604, MAPE2: 0.088118, Time: 42.2s
+2025-01-08 10:57:38,053 - model.pytorch.dist_para - INFO - Epoch [4/200] - Test Loss1 (Student): 4.5463, Test Loss2 (Student Comb): 3.1622, RMSE1: 8.7203, MAPE1: 0.114239, RMSE2: 6.0003, MAPE2: 0.089771
+2025-01-08 10:57:38,073 - model.pytorch.dist_para - INFO - Saved models at epoch 4
+2025-01-08 10:57:38,074 - model.pytorch.dist_para - INFO - Model saved to data/dist_log/log/gt/20250108_105357_gt_l_12_h_12_lr_0.001_bs_64/_subG_4_split_3D_teacher_Truemodels//epo4.tar
+2025-01-08 10:57:38,074 - model.pytorch.dist_para - INFO - Val loss improved from 4.0078 to 3.9544, saving model...
+2025-01-08 10:58:18,098 - model.pytorch.dist_para - INFO - Epoch [5/200] - Train Loss1 (Student): 5.2748, Train Loss2 (Student Comb): 3.3775
+2025-01-08 10:58:20,206 - model.pytorch.dist_para - INFO - Epoch [5/200] - Validation Loss1 (Student): 3.9239, Validation Loss2 (Student Comb): 2.9807, RMSE1: 7.6708, MAPE1: 0.102015, RMSE2: 5.6650, MAPE2: 0.088508, Time: 42.1s
+2025-01-08 10:58:20,207 - model.pytorch.dist_para - INFO - Val loss improved from 3.9544 to 3.9239, saving model...
+2025-01-08 10:59:00,310 - model.pytorch.dist_para - INFO - Epoch [6/200] - Train Loss1 (Student): 5.1264, Train Loss2 (Student Comb): 3.3150
+2025-01-08 10:59:02,478 - model.pytorch.dist_para - INFO - Epoch [6/200] - Validation Loss1 (Student): 3.8840, Validation Loss2 (Student Comb): 2.9587, RMSE1: 7.6044, MAPE1: 0.100188, RMSE2: 5.6177, MAPE2: 0.088401, Time: 42.3s
+2025-01-08 10:59:02,478 - model.pytorch.dist_para - INFO - Val loss improved from 3.9239 to 3.8840, saving model...
+2025-01-08 10:59:42,600 - model.pytorch.dist_para - INFO - Epoch [7/200] - Train Loss1 (Student): 5.0352, Train Loss2 (Student Comb): 3.2552
+2025-01-08 10:59:44,710 - model.pytorch.dist_para - INFO - Epoch [7/200] - Validation Loss1 (Student): 3.8637, Validation Loss2 (Student Comb): 2.9221, RMSE1: 7.5520, MAPE1: 0.099542, RMSE2: 5.5682, MAPE2: 0.086469, Time: 42.2s
+2025-01-08 10:59:44,710 - model.pytorch.dist_para - INFO - Val loss improved from 3.8840 to 3.8637, saving model...
+2025-01-08 11:00:24,706 - model.pytorch.dist_para - INFO - Epoch [8/200] - Train Loss1 (Student): 4.9681, Train Loss2 (Student Comb): 3.2017
+2025-01-08 11:00:26,822 - model.pytorch.dist_para - INFO - Epoch [8/200] - Validation Loss1 (Student): 3.8469, Validation Loss2 (Student Comb): 2.9172, RMSE1: 7.5333, MAPE1: 0.098856, RMSE2: 5.5467, MAPE2: 0.086359, Time: 42.1s
+2025-01-08 11:00:26,822 - model.pytorch.dist_para - INFO - Val loss improved from 3.8637 to 3.8469, saving model...
+2025-01-08 11:01:06,918 - model.pytorch.dist_para - INFO - Epoch [9/200] - Train Loss1 (Student): 4.8862, Train Loss2 (Student Comb): 3.1679
+2025-01-08 11:01:09,026 - model.pytorch.dist_para - INFO - Epoch [9/200] - Validation Loss1 (Student): 3.8328, Validation Loss2 (Student Comb): 2.9061, RMSE1: 7.4999, MAPE1: 0.098546, RMSE2: 5.5167, MAPE2: 0.084058, Time: 42.2s
+2025-01-08 11:01:13,276 - model.pytorch.dist_para - INFO - Epoch [9/200] - Test Loss1 (Student): 4.3944, Test Loss2 (Student Comb): 3.0972, RMSE1: 8.4642, MAPE1: 0.107853, RMSE2: 5.8688, MAPE2: 0.086342
+2025-01-08 11:01:13,374 - model.pytorch.dist_para - INFO - Saved models at epoch 9
+2025-01-08 11:01:13,375 - model.pytorch.dist_para - INFO - Model saved to data/dist_log/log/gt/20250108_105357_gt_l_12_h_12_lr_0.001_bs_64/_subG_4_split_3D_teacher_Truemodels//epo9.tar
+2025-01-08 11:01:13,375 - model.pytorch.dist_para - INFO - Val loss improved from 3.8469 to 3.8328, saving model...
+2025-01-08 11:01:53,300 - model.pytorch.dist_para - INFO - Epoch [10/200] - Train Loss1 (Student): 4.8107, Train Loss2 (Student Comb): 3.1292
+2025-01-08 11:01:55,401 - model.pytorch.dist_para - INFO - Epoch [10/200] - Validation Loss1 (Student): 3.8157, Validation Loss2 (Student Comb): 2.8939, RMSE1: 7.4721, MAPE1: 0.097773, RMSE2: 5.5265, MAPE2: 0.084114, Time: 42.0s
+2025-01-08 11:01:55,401 - model.pytorch.dist_para - INFO - Val loss improved from 3.8328 to 3.8157, saving model...
+2025-01-08 11:02:35,334 - model.pytorch.dist_para - INFO - Epoch [11/200] - Train Loss1 (Student): 4.7789, Train Loss2 (Student Comb): 3.0953
+2025-01-08 11:02:37,438 - model.pytorch.dist_para - INFO - Epoch [11/200] - Validation Loss1 (Student): 3.8049, Validation Loss2 (Student Comb): 2.8801, RMSE1: 7.4488, MAPE1: 0.098841, RMSE2: 5.5176, MAPE2: 0.084168, Time: 42.0s
+2025-01-08 11:02:37,438 - model.pytorch.dist_para - INFO - Val loss improved from 3.8157 to 3.8049, saving model...
+2025-01-08 11:03:17,376 - model.pytorch.dist_para - INFO - Epoch [12/200] - Train Loss1 (Student): 4.7692, Train Loss2 (Student Comb): 3.0690
+2025-01-08 11:03:19,479 - model.pytorch.dist_para - INFO - Epoch [12/200] - Validation Loss1 (Student): 3.7807, Validation Loss2 (Student Comb): 2.8705, RMSE1: 7.3794, MAPE1: 0.097146, RMSE2: 5.4862, MAPE2: 0.082956, Time: 42.0s
+2025-01-08 11:03:19,479 - model.pytorch.dist_para - INFO - Val loss improved from 3.8049 to 3.7807, saving model...
+2025-01-08 11:03:59,508 - model.pytorch.dist_para - INFO - Epoch [13/200] - Train Loss1 (Student): 4.7610, Train Loss2 (Student Comb): 3.0438
+2025-01-08 11:04:01,619 - model.pytorch.dist_para - INFO - Epoch [13/200] - Validation Loss1 (Student): 3.7706, Validation Loss2 (Student Comb): 2.8629, RMSE1: 7.3740, MAPE1: 0.096894, RMSE2: 5.4867, MAPE2: 0.082158, Time: 42.1s
+2025-01-08 11:04:01,619 - model.pytorch.dist_para - INFO - Val loss improved from 3.7807 to 3.7706, saving model...
+2025-01-08 11:04:41,793 - model.pytorch.dist_para - INFO - Epoch [14/200] - Train Loss1 (Student): 4.7233, Train Loss2 (Student Comb): 3.0235
+2025-01-08 11:04:43,896 - model.pytorch.dist_para - INFO - Epoch [14/200] - Validation Loss1 (Student): 3.7542, Validation Loss2 (Student Comb): 2.8670, RMSE1: 7.3457, MAPE1: 0.096404, RMSE2: 5.4830, MAPE2: 0.082221, Time: 42.3s
+2025-01-08 11:04:48,082 - model.pytorch.dist_para - INFO - Epoch [14/200] - Test Loss1 (Student): 4.3168, Test Loss2 (Student Comb): 3.0582, RMSE1: 8.2898, MAPE1: 0.105534, RMSE2: 5.8357, MAPE2: 0.084934
+2025-01-08 11:04:48,101 - model.pytorch.dist_para - INFO - Saved models at epoch 14
+2025-01-08 11:04:48,101 - model.pytorch.dist_para - INFO - Model saved to data/dist_log/log/gt/20250108_105357_gt_l_12_h_12_lr_0.001_bs_64/_subG_4_split_3D_teacher_Truemodels//epo14.tar
+2025-01-08 11:04:48,101 - model.pytorch.dist_para - INFO - Val loss improved from 3.7706 to 3.7542, saving model...
+2025-01-08 11:05:28,068 - model.pytorch.dist_para - INFO - Epoch [15/200] - Train Loss1 (Student): 4.7012, Train Loss2 (Student Comb): 2.9966
+2025-01-08 11:05:30,188 - model.pytorch.dist_para - INFO - Epoch [15/200] - Validation Loss1 (Student): 3.7385, Validation Loss2 (Student Comb): 2.8714, RMSE1: 7.3032, MAPE1: 0.096098, RMSE2: 5.4788, MAPE2: 0.082552, Time: 42.1s
+2025-01-08 11:05:30,188 - model.pytorch.dist_para - INFO - Val loss improved from 3.7542 to 3.7385, saving model...
+2025-01-08 11:06:10,289 - model.pytorch.dist_para - INFO - Epoch [16/200] - Train Loss1 (Student): 4.6709, Train Loss2 (Student Comb): 2.9884
+2025-01-08 11:06:12,405 - model.pytorch.dist_para - INFO - Epoch [16/200] - Validation Loss1 (Student): 3.7392, Validation Loss2 (Student Comb): 2.8612, RMSE1: 7.3261, MAPE1: 0.095658, RMSE2: 5.4799, MAPE2: 0.081767, Time: 42.2s
+2025-01-08 11:06:52,593 - model.pytorch.dist_para - INFO - Epoch [17/200] - Train Loss1 (Student): 4.6769, Train Loss2 (Student Comb): 2.9771
+2025-01-08 11:06:54,716 - model.pytorch.dist_para - INFO - Epoch [17/200] - Validation Loss1 (Student): 3.7267, Validation Loss2 (Student Comb): 2.8512, RMSE1: 7.3055, MAPE1: 0.095780, RMSE2: 5.4522, MAPE2: 0.081358, Time: 42.3s
+2025-01-08 11:06:54,716 - model.pytorch.dist_para - INFO - Val loss improved from 3.7385 to 3.7267, saving model...
+2025-01-08 11:07:34,934 - model.pytorch.dist_para - INFO - Epoch [18/200] - Train Loss1 (Student): 4.6411, Train Loss2 (Student Comb): 2.9639
+2025-01-08 11:07:37,052 - model.pytorch.dist_para - INFO - Epoch [18/200] - Validation Loss1 (Student): 3.7258, Validation Loss2 (Student Comb): 2.8580, RMSE1: 7.3071, MAPE1: 0.095614, RMSE2: 5.4992, MAPE2: 0.082217, Time: 42.3s
+2025-01-08 11:07:37,052 - model.pytorch.dist_para - INFO - Val loss improved from 3.7267 to 3.7258, saving model...
+2025-01-08 11:08:17,160 - model.pytorch.dist_para - INFO - Epoch [19/200] - Train Loss1 (Student): 4.6252, Train Loss2 (Student Comb): 2.9529
+2025-01-08 11:08:19,274 - model.pytorch.dist_para - INFO - Epoch [19/200] - Validation Loss1 (Student): 3.7193, Validation Loss2 (Student Comb): 2.8637, RMSE1: 7.3037, MAPE1: 0.095527, RMSE2: 5.4811, MAPE2: 0.082153, Time: 42.2s
+2025-01-08 11:08:23,506 - model.pytorch.dist_para - INFO - Epoch [19/200] - Test Loss1 (Student): 4.2823, Test Loss2 (Student Comb): 3.0384, RMSE1: 8.2404, MAPE1: 0.104663, RMSE2: 5.8133, MAPE2: 0.084452
+2025-01-08 11:08:23,526 - model.pytorch.dist_para - INFO - Saved models at epoch 19
+2025-01-08 11:08:23,526 - model.pytorch.dist_para - INFO - Model saved to data/dist_log/log/gt/20250108_105357_gt_l_12_h_12_lr_0.001_bs_64/_subG_4_split_3D_teacher_Truemodels//epo19.tar
+2025-01-08 11:08:23,526 - model.pytorch.dist_para - INFO - Val loss improved from 3.7258 to 3.7193, saving model...
+2025-01-08 11:09:03,620 - model.pytorch.dist_para - INFO - Epoch [20/200] - Train Loss1 (Student): 4.5516, Train Loss2 (Student Comb): 2.9374
+2025-01-08 11:09:05,733 - model.pytorch.dist_para - INFO - Epoch [20/200] - Validation Loss1 (Student): 3.6927, Validation Loss2 (Student Comb): 2.8454, RMSE1: 7.1866, MAPE1: 0.094968, RMSE2: 5.4745, MAPE2: 0.082078, Time: 42.2s
+2025-01-08 11:09:05,733 - model.pytorch.dist_para - INFO - Val loss improved from 3.7193 to 3.6927, saving model...
